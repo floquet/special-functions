@@ -1,0 +1,72 @@
+\documentclass[10pt]{newsiambook}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{crop}
+\usepackage{pdflscape}
+%\usepackage{pdfpages}
+\usepackage{tabularx}
+\usepackage{color}
+%\usepackage{verbatim}
+%\usepackage{algorithmic}
+\usepackage{colortbl}
+\setlength\minrowclearance{4pt}
+%\usepackage[pdftex]{graphicx}
+\usepackage{sidecap}
+%\usepackage{cancel}
+ 
+\crop	
+\newcommand{\pathname}{common/}
+\newcommand{\fullpath}{\pathname}
+
+\input{\pathname declarations.tex}
+
+\makeindex
+
+\begin{document}
+
+\frontmatter
+
+\tableofcontents
+
+\listoffigures
+%
+\listoftables
+%
+%\listofalgorithms
+
+%undefined control sequence
+%\listoftheorems
+
+\input{chapters/frontmatter/preface}
+\input{chapters/frontmatter/introduction}
+
+\mainmatter
+
+%%%%%%%
+%\part{Introducing the SVD}
+\input{chapters/"ch 01 introduction"/introduction}
+\input{chapters/"ch 02 abstract groups"/"head abstract groups"}
+\input{chapters/"ch 03 Lie groups"/"head Lie groups"}
+\input{chapters/"ch 04 Lie algebras"/"head Lie algebras"}
+\input{chapters/"ch 05 invariant integration"/"head invariant integration"}
+\input{chapters/"ch 06 group representations"/"head group representations"}
+\input{chapters/"ch 07 completeness theorems"/"head completeness theorems"}
+\input{chapters/"ch 08 U(1) and SU(2)"/"head U(1) and SU(2)"}
+\input{chapters/"ch 09 rotations in space"/"head rotations in space"}
+
+%%%%%%%
+\appendix
+%\input{chapters/appendices/summaries/"head summaries"}
+
+%%%%%%
+%\part{\ \ Backmatter}
+%\backmatter
+%%\input{backmatter/acronyms}
+
+\printindex
+
+\end{document}
