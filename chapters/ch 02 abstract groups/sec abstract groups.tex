@@ -1,0 +1,43 @@
+\section{Abstract groups}
+
+A group $G$ is a set in which an operation is defined which associates with every ordered pair of elements in $G$ a third element of $G$. This operation is called \emph{multiplication}; each of the given pair is called a \emph{factor}, and the third element is called the \emph{product}. If $(a, b)$ is the given pair, the product is usually denoted simply by $ab$. The set $G$ and the multiplication law must further satisfy the following properties known as group axioms.
+\begin{description}
+%
+\item[A.] The multiplication is \emph{associative}; that is
+\begin{equation}
+  \paren{ab}c = a \paren{bc} . 
+\end{equation}
+%
+\item[B.] There is one element, \emph{the identity} $e$, with the property that for all $a \in G$
+\begin{equation}
+  a e = ea = a.
+\end{equation}
+%
+\item[C.] For each $a \in G$, there is an element $a^{-1}$, the \emph{inverse} of $a$, such that
+\begin{equation}
+  a^{-1} a = a a^{-1} = e.
+\end{equation}
+%
+\end{description}
+
+An important consequence of A is that the product of three (or more) factors in a particular order is independent of the order in which the multiplications are performed. Thus, a product of the form $abcd$ can be interpreted to be anyone of $(ab)(cd)$, $(a(bc)d)$, $((ab)c)d$, and so on. It is important to observe that either of the equations $ax = b$ and $xa = b$ has a unique solution for $x$. In the former case $x =a^{-1}b$, in the latter $x =ba^{-1}$, as can be seen by left (right) multiplication with $a^{-1}$. It follows from this that if $ab = b$, or if $ba = b$, then $a = e$, since $a = e$ is a solution of either equation. Therefore, $e$ is the only element multiplication with which leaves any element unchanged, and this applies to both left and right multiplication. Similarly, if $ab = e$, or $ba = e$, then $b =a^{-1}$.	The inverse element is therefore unique; that is, $b =a^{-1}$ is the only element with the property C. 
+
+If $a^{2} = a$, multiplication with $a^{-1}$ shows that $a = e$: the identity is the only element equal to its square (although it is possible that $a^{n} = a$, $n \ne 2$). Since $e^{2} = e$, the identity element is its own inverse.
+Another rule which is frequently used is that the inverse of the product $ab$ is $b^{-1} a^{-1}$.
+A result of considerable significance is that the mapping $f_{a}$ of $G$ into $G$ defined by $f_{a}\paren{a^{-1}y}  = aa^{-1}y = y$ is a 1$-$1 correspondence between the group and itself. For any $y \in G$, $f_{a}\paren{x_{1}} = f_{a}\paren{x_{2}}$, so that $y$ is the image of an element in $G$, that is, $f_{a}$ maps $G$ onto $G$. Furthermore, if $f_{a}\paren{x_{1}} = f_{a}\paren{x_{2}}$, $x_{1} = x_{2}$, since multiplying each side of $ax_{1} = ax_{1}$ with $a^{-1}$ gives $x_{1} = x_{2}$. Therefore, each $y \in G$ is the image of exactly one $x \in G$ and the mapping $f_{a}$ has a well-defined inverse. The mapping $f_{a}$ in effect rearranges or permutes the elements of $G$.
+
+Each group element can therefore be identified with a unique map- ping of the group onto itself with the property that the product $x_{2}^{-1} x_{1}$ is invariant. It is obvious that each group element generates such a mapping. Conversely, if $F$ is such a mapping, the group element is such that $F = f_{a}$ can be identified as $a = F(x)x^{-1}$; the invariance of $x_{2}^{-1} x_{1}$ guarantees that this choice is independent of $x$.
+
+We consider now some examples of groups. One simple example is the set $C$ of all nonzero complex numbers under complex multiplication. Another example is the set of all nonsingular $n \times n$ matrices with complex elements; the multiplication in this group, and in all matrix groups to be considered in this work, is the usual matrix multiplication.
+
+A third example has been alluded to in the introduction. It is the \emph{permutation group} which can be defined as follows. 	For any set $S$ the set of all mappings $f$ of $S$ onto itself which have a well-defined inverse constitutes a group with the multiplication defined as in the introduction. The identity of the group is the mapping defined by $f(x) = x$. It is necessary to verify that the associative law is valid, that is, that $(fg)h = f(gh)$; this can be seen to be true since each of these is the mapping $x \longrightarrow f\paren{g\paren{h\paren{x} } } $.
+
+It may happen that two groups, which are defined in quite different ways, are identical as far as their mathematical structure is concerned. If this is the case, the groups are said to be isomorphic. The precise definition of isomorphism is as follows: two groups $G$ and $G'$ are \emph{isomorphic} if there is a 1$-$1 correspondence between them such that if $a \longleftrightarrow a'$ and $b \longleftrightarrow b'$, then $ab \longleftrightarrow a'b'$ for all $a$ and $b$ in $G$. This correspondence is called an \emph{isomorphism}. One can see immediately that $e \in G$ must correspond to $e'$, the identity in $G'$, by the following argument. Suppose $e \longleftrightarrow c'$. Then for any $a$ and corresponding $a'$, $ae \longleftrightarrow a'c'$ and, hence, $a \longleftrightarrow a'c'$. This implies that $a'c' = a'$ and, hence, as we have seen, that $c' = e'$. It can also be proved easily that if $a \longleftrightarrow a'$, $a^{-1} \longleftrightarrow \paren{a'}^{-1}$. As a simple example of isomorphism, we remark that the group of complex numbers mentioned above is isomorphic to the group of matrices of the form
+\begin{equation*}
+  \mat{rc}{a & b \\ -b & a}
+\end{equation*}
+where $a$ and $b$ are real and not both zero and the above matrix corresponds to the complex number $a + bi$ under the isomorphism.
+
+If two elements have the property that $ab = ba$, they are said to \emph{commute}. A group that has the property that all pairs of elements commute is said to be \emph{Abelian}, or \emph{commutative}. One can devise many examples of Abelian groups; the simplest is, perhaps, the set of real numbers with addition as the group operation. We mention also that if a group has a finite number $n$ of elements, it is said to be a finite group of order $n$.
+
+\endinput

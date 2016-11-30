@@ -1,0 +1,37 @@
+\section{Subgroup and factor groups}
+
+A subset of a group $G$ which is itself a group with the same law of multiplication as that in $G$ is called a \emph{subgroup}. To be more explicit, a subgroup $H$ is a nonempty subset of $G$ such that if $a$ and $b$ are in $H$, then $a^{-1}$ and $ab$ are in $H$. It is unnecessary to specify the associative property since this is guaranteed by the multiplication law in $G$. Furthermore, $e\in H$ since
+if $a\in H$, $a^{-1}\in H$, and $aa^{-1} = e \in H$. Two trivial examples of subgroups of $G$ are the group $G$ itself and the subgroup consisting of only $e$. If a subgroup is neither of these, it is said to be a \emph{proper} subgroup. An example of a subgroup is the set of all $n \times n$ matrices with unit determinant as a subgroup of the set of all $n \times n$ matrices. Another example is provided by the group of permutations on a set $S$. If $S'$ is a subset of $S$, the set of permutations that have the property $f(x) = x$ for all $x \in S'$ is a subgroup of the full permutation group; this subgroup is in fact the permutation group on the set $S -S'$. Another subgroup, which is larger, is the set of all permutations that map $S$ onto itself and $S - S'$ onto itself.
+
+If $a$ is any element of a group $G$ and $B$ is any subset of the group, it is convenient to denote by $aB$ the set of all elements of the form $ab$ where $b \in B$; Similarly $Ba$ denotes the set of all elements of the form $ba$. If $A$ and $B$ are subsets, we will denote by $AB$ and $BA$ respectively the sets of all elements of the form $ab$ and $ba$ where $a \in A$ and $b \in B$. These sets satisfy certain associativity properties such as $(AB) C = A (BC)$, which are easily verified and will henceforth be taken for granted. As examples of this notation, we observe that $eA = A$ for any $A$, and that if $H$ is a subgroup, $HH = H^{2} = H$. We will also denote by $A^{-1}$ the set of all inverses of elements of $A$. We can observe that $(AB)^{-1} = B^{-1}A^{-1}$ and that if $H$ is a subgroup, $H^{-1} = H$. It is also true that if $H^{2} = H^{-1} = H$, $H$ is a subgroup. 
+
+A subgroup $H$ of a group $G$ can be used to subdivide $G$ into disjoint pieces known as the \emph{left cosets} of $H$. These are the subsets of$G$ of the form $aH$ where $a$ is any element of $G$. Each element $x$ of $G$ is in exactly one left coset. It is certainly in the left coset $xH$ since $x = xe \in xH$. Suppose, however, that $x$ is in two cosets, $aH$ and $bH$. Then $x$ can be written either as $ah_{1}$ or as $bh_{2}$,where $h_{1}$ and $h_{2}$ are elements of $H$. Then $ah_{l} = bh_{2} (= x)$ or $a = bh_{2}h_{1}^{- 1}$ and $aH = bh_{2}h_{1}^{- 1}H = bh_{2}H = bH$ so that $aH$ and $bH$ are identical. We remark further that $a$ and $b$ are in the same left coset if and only if $a$ can be expressed in the form $bh$, $h \in H$; this is equivalent to the condition $b^{-1}a \in H$, which is a useful criterion for determining whether two elements are in the same left coset.
+
+If the subgroup $H$ contains a finite number $m$ of elements, and there are $p$, a finite number, left cosets, the group $G$ contains $p \times m$ elements since each left coset contains exactly $m$ elements. This implies that in a finite group the order of a subgroup must divide the order of the group, a result known as Lagrange's theorem.
+It is clear that \emph{right cosets} can be defined analogously to left cosets and that the foregoing remarks will be equally applicable. We observe that two elements $a$ and $b$ are in the same right coset if, and only if, $ba^{-1} \in H$. In general the right cosets will differ from the left cosets; if, however, $aH = Ha$ for all $a \in G$, the two types of cosets coincide and the subgroup $H$ is said to be \emph{normal} or \emph{invariant}. It can be seen that a condition equivalent to $aH = Ha$ for all $a \in G$ is that $aHa^{-1} \subset H$ for all $a \in G$, and the condition of normality will usually be expressed in this form. If a group has no proper normal subgroup, it is called \emph{simple}.
+If $N$ is a normal subgroup of $G$, an important new group can be formed which is known as the \emph{factor} or \emph{quotient} group and is denoted by $G/N$. The elements of $G/N$ are the cosets of $N$. Multiplication is defined in $G/N$ by defining the product of two cosets $aN$ and $bN$ to be the coset 
+\begin{equation*}
+  (aN)(bN) = aNbN = abNN = abN ;
+\end{equation*}
+that is, the product of $aN$ and $bN$ is the coset containing $ab$. (It is not difficult to show that this definition is independent of the choice of $a$ and $b$ from their respective coset.) The identity of $G/N$ is $N$ itself since 
+\begin{equation*}
+  (aN)N = aNN = aN .
+\end{equation*}
+The associative law is readily seen to be valid since 
+\begin{equation*}
+  \paren{aNbN} cN= abcN = aN \paren{bNcN} .
+\end{equation*}
+Finally, the inverse of $aN$ is clearly $a^{-1}N$.
+An example of a normal subgroup is the group of matrices of unit determinant as a subgroup of a complete matrix group; it will be left to the reader to show that this is a normal subgroup, and that the corresponding factor group is isomorphic to the group of nonzero complex numbers.
+A few rather elementary properties of subgroups will now be formulated as a theorem, for which the proofs will not be given.
+
+\begin{theorem}
+Let G be a group. \\
+(a) If $H$ and $K$ are subgroups of $G$, then $H \cap K$, the set of elements contained in both $H$ and $K$, is a subgroup of $G$.\\
+(b) If $H$ is a subgroup of $G$, and $N$ is a normal subgroup of $G$, then $N \cap H$ is a normal subgroup of $H$.\\
+(c) If $H$ is a subgroup of $G$, and $N$ is a normal subgroup of $G$, then $NH$ is a subgroup of $G$.\\
+(d) If $H$ and $N$ are normal subgroups of $G$, then $NH$ and $H \cap N$ are normal subgroups of $G$.
+\end{theorem}
+
+
+\endinput

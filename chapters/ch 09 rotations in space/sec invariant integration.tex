@@ -1,0 +1,31 @@
+\section{The functions $v^{\alpha}_{\beta}$ and invariant integration}
+
+In this section the functions $v^{\alpha}_{\beta}$ defined in equation (3.8) will be calculated for $O(3)+$. It is then possible to calculate the weight function for invariant integration immediately. It is unfortunately not useful to calculate the functions directly from (3.8) since the parametrization in the Euler angles is singular at $e$. It is necessary instead to introduce a new coordinate system into the neighborhood of $e$. To terms in first-order, an element in the neighborhood of $e$ can be written in the form
+\begin{equation}
+  B\paren{ h_{1}, h_{2}, h_{3} } = \mat{rrr}{
+   1\phantom{1}  & -h_{3} &  h_{2} \\
+   h_{3} &  1\phantom{1}  & -h_{1} \\
+  -h_{2} &  h_{1} & 1\phantom{1}
+  }
+\end{equation}
+since, as we have seen, this is orthogonal in first-order in $h$.
+
+For convenience we will replace $\alpha$ by $\alpha_{1}$, $\beta$ by $\alpha_{2}$, and $\alpha$ by $\alpha_{3}$.
+and denote by $\mathbf{h}$ and $\mathbf{\alpha}$ vectors with components $(h_{1}, h_{2}, h_{3})$ and $(\alpha_{1}, \alpha_{2}, \alpha_{3})$ respectively. We consider the product functions $\mathbf{f}\paren{\mathbf{h}, \mathbf{\alpha}}$ that are defined to be the Euler angles of the product rotation $R\paren{\alpha} B\paren{h} $; that is,
+\begin{equation}
+  v_{c}^{r} \paren{\alpha} = \mat{rrc}{
+   \sin \gamma \, \csc \beta &  \cos \gamma \, \csc \beta & 0 \\
+   \cos \gamma  \phantom{\quad}             & -\sin \gamma \, \csc \beta & 0 \\
+  -\sin \gamma \, \cot \beta & -\cos \gamma \, \cot \beta & 1 
+  }
+  \label{eq:9:vcr}
+\end{equation}
+where $v_{c}^{r} \paren{\alpha}$ is the element in row $r$ and column $c$.
+
+The determinant of the matrix in \eqref{eq:9:vcr} is observed to be $-\csc \beta$.The weight function for invariant group integration has been found to be the reciprocal of this determinant and ism therefore, $-\sin \beta$. The fact that the weight function is negative is rather disconcerting. This difficulty arises because the parametrization in the Euler angles is singular at $e$ and there is no unique prescription for carrying the coordinates $\mathbf{h}$ into the coordinates $\alpha$. Another manifestation of this difficulty is that $w(e) = 0$.	This shows that an attempt to evaluate $w$ by (5.9) would necessarily fail since it was assumed in the derivation of (5.9) that $w(e) = 1$. Since it is desirable that the weight function be positive we arbitrarily change the sign and write
+\begin{equation}
+  w \paren{ \alpha, \beta, \gamma } = \sin \beta .
+\end{equation}
+This sign change can be justified by permuting the rows of (1.3) since there is no \emph{a priori} ordering of the Euler angles.
+
+\endinput

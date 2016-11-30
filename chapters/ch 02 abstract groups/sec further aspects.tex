@@ -1,0 +1,48 @@
+\section{Some further aspects of groups}
+
+
+Our review of some of the concepts from abstract group theory will be concluded in this section with discussions of miscellaneous topics: equivalence classes in groups, direct products of groups, and two important subgroups. The discussion will be limited to definitions and results more or less pertinent to the sequel.
+
+An important classification of elements within a group $G$ is provided by the conjugacy or equivalence classes in the group defined as follows. An element $b \in G$ is said to be \emph{equivalent}, or \emph{conjugate}, to $a\in G$ if there is some element $t$ such that $tat^{-1}=b$. If this is the case, $t$ is said to \emph{transform} $a$ into $b$. Since $e$ transforms $a$ into $a$, $a$ is equivalent to itself, and since $t^{-1}$ transforms $b$ into $a$, $a$ is equivalent to $b$. Furthermore, if $c$ is equivalent to $b$, that is, $c = sbs^{-1}$, and $b$ is equivalent to $a$, $b = tat^{-1}$ , then $c$ is equivalent to $a$ since $c = (st)a(st)^{-1}$ .	The group $G$ can be divided into disjoint subsets with the property that any two elements common to one subset are equivalent and any two elements from different subsets are not equivalent; these subsets are called the \emph{equivalence} or \emph{conjugacy classes} of $G$. The class to which any element $a$ belongs will be denoted by $C_{a}$. As an example, we note that $C_{e}$ consists only of $e$ since $tet^{-1} = e$ for all $t \in G$. If $G$ is Abelian, it is clear that each class consists of only a single element. 
+
+It is worth while to observe that a subgroup $N$ of $G$ is normal if and only if it is composed of entire classes. This follows since, if $a \in  N$,$tat^{-1} \in N$ if $N$ is normal, so that $C_{a} \subset N$. On the other hand, if $C_{a} \subset N$ for each $a \in N$, $tNt^{-1} \subset N$ and $N$ is normal. The subgroup $N$ can itself be regarded as a group composed of classes $\overline{C}$ with respect to $N$. Two elements $n_{1}$ and $n2$ are in the same class $C$ if there is an element $t \in  N$ such that$ tn_{1}t^{-t} = n_{2}$; it follows that if two elements are in the same class $\overline{C}$ of $N$, they are in the same class $C$ of $G$. On the other hand, two elements common to a class $C$ in $G$ may be in different classes in $N$, since the element which transforms one to the other may be outside of $N$. We can conclude from this discussion that each class $C$ in $G$ that is contained in $N$ is composed of entire classes $\overline{C}$ of $N$.
+
+If two groups $G_{1}$ and $G_{2}$ are known, it is possible to form a third group from them. The \emph{direct product} $G_{1} \otimes G_{2}$ of the two groups is defined to be the set of all pairs of the form $(g_{1}, g_{2})$ where $g_{1} \in  G_{1}$ and $g_{2} \in  G_{2}$á The product of two such pairs is defined in a rather obvious way by
+\begin{equation}
+  \paren{g_{1} g_{2}} \paren{h_{1}, h_{2}} = \paren{g_{1}h_{1}, g_{2}h_{2}} .
+\label{eq:2.5}
+\end{equation}
+The identity in $G_{1} \otimes	G_{2}$ is $\paren{e_{1}, e_{2}}$ and the inverse of $\paren{g_{1}, g_{2}}$ is $\paren{g_{1}^{-1}, g_{2}^{-1}}$.
+
+The direct product has no interesting algebraic structure other than that of each of its factors. A question of some interest is: given a group $G$, does it have subgroups $G_{1}$ and $G_{2}$ such that $G$ is (isomorphic to) the direct product of $G_{1}$ and $G_{2}$? It will now be shown that if $G$ has normal subgroups $N_{1}$ and $N_{2}$ such that $N_{1} \cap N_{2} = \{e\}$ and $N_{1}N_{2} = G$, then $G$ is isomorphic to $N_{1} \otimes N_{2}$. It will first be shown that if $n_{1} \in  N_{1}$ and $n_{2} \in  N_{2}$, then $n_{1}n_{2} = n_{2}n_{1}$. This is proved by considering the \textbf{commutator} $q = n_{1}n_{2}n_{1}^{-1}n_{2}^{-1}$ of $n_{1}$ and $n_{2}$. Since $N_{2}$ is a normal subgroup, $n_{1}n_{2}n_{1}^{-1} = n_{2}' \in  N_{2}$ and $q = n_{2}'n_{2}^{-1} \in  N_{2}$. Similarly, since $N_{1}$ is a normal subgroup, $n_{2}n_{1}^{-1}n_{2}^{-1} = n_{1}' \in Nt$ and $q = n_{1}n_{1}' \in 	N_{1}$. Therefore, $q \in  N_{1} \cap N_{2}$ and $q$ is necessarily $e$. It follows immediately that $n_{1}n_{2} = n_{2}n_{1}$. Since $N_{1}N_{2} = G$, each element $g \in  G$ can be expressed in the form $n_{1}n_{2}$. This representation is, moreover, unique, since if $g = n_{1}n_{2} = m_{1}m_{2}$ where $n_{1}$ and $m_{1}$ are in $N_{1}$ and $n_{2}$ and $m_{2}$ are in $N_{2}$, then $m_{1}^{-1}n_{1} = m_{2}n_{2}^{-1}$. The left-hand side is in $N^{-1}$ the right-hand side is in $N_{2}$, so that each is necessarily $e$ and $m_{1} = n_{1}$, $m_{2} = n_{2}'$. The isomorphism between $N_{1} \otimes N_{2}$ and $G$ is now given by the relation
+\begin{equation}
+  \paren{n_{1}, n_{2}} \longleftrightarrow n_{1}n_{2} 
+\label{eq:2.6}
+\end{equation}
+This correspondence is an isomorphism, since if $\paren{n_{1}, n_{2}} \longleftrightarrow n_{1}n_{2}$ and $\paren{m_{1}, m_{2}} \longleftrightarrow m_{1}m_{2}$, then 
+\begin{equation*}
+  \paren{n_{1}, n_{2}} \paren{m_{1}, m_{2}} = \paren{n_{1}m_{1}, n_{2}m_{2}} \longleftrightarrow 
+  \paren{n_{1}m_{1}n_{2}m_{2}} = \paren{n_{1}n_{2}} \paren{m_{1}m_{2}}      
+\end{equation*}
+from the fact that $n_{2}m_{1} = m_{1}n_{2}$. 
+
+The set $Z$ of all elements that commute with every element of a group $G$ is called the \textbf{center} of $G$. It is easy to show that $Z$ is a subgroup of $G$, since if $z_{1}$ and $z_{2}$ are in $Z$ and $g$ is any element of $G$,
+\begin{equation*}
+  z_{1} z_{2} g = z_{1} g z_{2} = g z_{1} z_{2}
+\end{equation*}
+and $z_{1}z_{2} \in Z$. It is also clear that $e \in Z$ and that if $z\in Z$, $z^{-1}\in Z$, so that $Z$ is a subgroup. Since $gZ = Zg$ for all $g \in G$, $Z$ is also a normal subgroup of $G$. Any subgroup of $Z$ is also necessarily a normal subgroup of $G$; such a subgroup is called a \textbf{central normal subgroup}.
+
+We have defined the commutator of two elements $a$ and $b$ to be $aba^{-1}b^{-1}$. The \textbf{commutator subgroup} of $G$ is defined to be the set of all elements that can be expressed as a product of commutators. The commutator subgroup is commonly denoted by $G'$. It is clear that the product of two elements of $G'$ is again in $G'$ and that $e \in G'$.
+If $q$ is the commutator of $a$ and $b$, $q^{-1}$ is the commutator of $b$ and $a$. It follows from this that the inverse of any element in $G'$ is again in $G'$, and, hence, that $G'$ is a subgroup. To show that $G'$ is a normal subgroup, we observe first that if $q$ is the commutator of $a$ and $b$, $tqt^{-1}$ is the commutator of $tat^{-1}$ and $tbt^{-1}$ so that $t$ transforms any commutator into another commutator. If $x = q_{1}q_{2} \dots q_{n}$ is an element of $G'$, then 
+\begin{equation}
+  txt^{-1} = \paren{tq_{1}t^{-1}} \paren{tq_{2}t^{-1}} \dots \paren{tq_{n}t^{-1}}   
+\end{equation}
+is also an element of $G'$, which is, therefore, a normal subgroup.
+
+An interesting property of $G'$ is that $G/G'$ is an Abelian group. Let $aG'$ and $bG'$ be two cosets of $G'$. Their inverses in $G/G'$ can be written $a^{-1}G$, and $b^{-1}G'$ respectively. The commutator of $aG'$ and $bG'$ is 
+\begin{equation*}
+  \paren{aG'} \paren{bG'} \paren{a^{-1}G'} \paren{b^{-1}G'} = aba^{-1}b^{-1}G' = G',
+\end{equation*}
+since $\paren{a^{-1}G'} \paren{b^{-1}G'} \in G'$. Since $G'$ is the identity in $G/G'$, $G/G'$ is Abelian.
+
+\endinput

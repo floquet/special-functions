@@ -1,0 +1,179 @@
+\section{General properties of the rotation group	}
+
+In this discussion we will denote by  $\R$ any element of  $O(3)$ . The matrix  $\R$ is a real  $3 \times 3$  matrix that satisfies
+\begin{equation}
+  \R^{T} \R = \I .
+  \label{eq:901}
+\end{equation}
+A consequence of \eqref{eq:901} is that $\det \R = \pm 1$. The matrices with determinant $-1$ describe a rotation with a reflection; for the most part we will be concerned with the proper rotations, the subgroup of matrices of unit determinant. This group is denoted by $O(3)+$.
+
+An arbitrary group element $\R$ has in general three eigenvalues which, since  $\R$ is orthogonal, are of unit modulus. If  $\R$ is a proper rotation the three eigenvalues of  $\R$ must satisfy $\lambda_{1} \lambda_{2} \lambda_{3} = 1$. Since the secular equation $\abs{\R - \lambda \I} = 0$ is of degree three and has real coefficients, $\R$ has one real eigenvalue, which must be $\pm 1$, and a pair of complex eigenvalues $\lambda$ and $\lambda^{*}$. If the rotation is proper, the real eigenvalue must be $+1$. For a particular  $\R$ it may happen that $\lambda^{} = \lambda^{*} = +1$ or $\lambda^{} = \lambda^{*} = -1$. The first case is clearly $\R = \I$; it will be seen that the second case corresponds to a rotation about some axis by $\pi$.
+
+If  $\R$ is a proper rotation there is a vector $v$ with the property $\R v = v$ corresponding to the eigenvalue 1. A line through the origin in the direction of $v$ is invariant under the rotation  $\R$ and can be interpreted as the axis of rotation. If $\lambda = e^{-i \phi}$, $\phi$ real, is another eigenvalue there is associated with it a complex vector $u + i w$ satisfying
+\begin{equation}
+  \R \paren{u + i w} = e^{-i \phi} \paren{u + i w} 
+  \label{eq:902}
+\end{equation}
+The vectors $u$ and $w$ are each perpendicular to $v$ since $v$ and $u + iw$ are eigenvectors corresponding to different eigenvalues implying $\paren{u + i w} \cdot v = 0$. It is possible to show also that $u \cdot w = 0$. If the complex conjugate of \eqref{eq:902} is taken, it is seen that, since  $\R$ is real, $u - iw$ is also an eigenvector of  $\R$ corresponding to the eigenvalue $e^{i \phi}$. The orthogonality of these two vectors (in the usual complex vector inner product) implies that 
+\begin{equation*}
+  \paren{u + i w} \cdot \paren{u + i w} = \abs{u}^{2} - \abs{w}^{2} + 2 i u w = 0
+\end{equation*}
+This result shows that $\abs{u} = \abs{w}$ and $u \cdot w = 0$. The vectors $u$ and $w$ can be visualized as mutually perpendicular vectors lying in a plane perpendicular to v.
+
+Taking real and imaginary parts of \eqref{eq:902} shows that 
+\begin{subequations}
+\label{grp}
+ \begin{align} 
+   \R u &= \ps\!\cos \phi \, u + \sin \phi \, w \label{second}\\
+   \R w &= -\sin \phi \, u + \cos \phi \, w \label{second}
+ \end{align}
+\end{subequations}
+This result indicates that vectors in the plane perpendicular to v, which can be expressed as a linear combination of u and w, are rotated within the plane by an angle $\phi$. An arbitrary vector  $\R$ can be expressed in the form $\alpha v + \beta p$ where $p$ is in the plane perpendicular to $v$. We can write $\R r = \alpha v + \beta\R p$, indicating that  $\R$ has been rotated about $v$ by an angle $\phi$ In Fig. 9-1 we show the vector $v$, the plane spanned by $u$ and $w$, and an arbitrary vector  $r$ together with $\R r$.
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[ width = 2in ]{images/"figure 9-1 naked"} 
+   \caption{The effect on an arbitrary vector $r$ of a rotation about the $v$ axis by an angle $\phi$.}
+   \label{fig:9.1}
+\end{figure}
+
+If the vectors $u$, $w$, $v$, are assumed to be normalized to unit length the matrix $\Q$ whose columns are $u$, $w$, $v$, in that order, is orthogonal. It can be verified that, since $\Q^{T} = \Q^{-1}$,
+\begin{equation}
+  \Q^{-1} \R \Q = \R' = 
+  \mat{crc}{
+  \cos \phi & -\sin \phi & 0 \\
+  \sin \phi &  \cos \phi & 0 \\
+  0         &  0 \phantom{si}         & 1
+  }
+\label{eq:9.4}
+\end{equation}
+
+The matrix $\R'$ defines a right-hand rotation about the $z$ axis by $\phi$. Since $\Q \in O(3)$, $\R$ and $\R'$ are in the same class and we can conclude that a rotation about any axis by an angle $\phi$ is in the same class as a rotation about the $z$ axis by $\phi$. This implies that if two rotations are by the same angle they are in the same class. On the other hand, rotations by different angles are in different classes since their diagonal forms are different. It can be noted that since the trace is invariant under the transformation \eqref{eq:9.4} the angle of rotation can be determined from
+\begin{equation}
+  \text{tr } \R = 1 + 2 \cos \phi .
+\label{eq:9.5}
+\end{equation}
+
+The group can be parametrized by specifying the polar coordinates of $v$, the axis of rotation, and $\phi$, the angle of rotation, where $0 \le \phi \le \phi$. A more common parametrization, however, is by the \textbf{Euler angles} which will now be defined. A rotation is uniquely specified by the final position of three unit vectors, $i$, $j$, $k$, which were originally parallel to the $x$, $y$, and $z$ axes respectively. The final components of $k$ can be written $\paren{\sin \beta \sin \alpha, -\sin \beta \cos \alpha, \cos \beta}$ where $\beta$ is the colatitude of $k$ and $\alpha = \phi + \pi / 2$, where $\phi$ is the azimuthal angle of $k$. In fig. \eqref{fig:9.2} we show the final position of $k$ and the angles $\beta$ and $\alpha$.
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   %\includegraphics[ width = 2in ]{example.jpg} 
+   \caption{The vectors $e$, $f$, $k$ show the position of $i$, $j$, $k$ following the rotation $Z\paren{\alpha} X\paren{\beta}$. Note that $e$ is in the $x-y$ plane perpendicular to $k$ and that $f = k \times e$. The angles $\beta$ and $\alpha - \pi/2$ are the spherical polar coordinates of $k$.}
+   \label{fig:9.2}
+\end{figure}
+
+The vectors $i$ and $j$ lie in the plane perpendicular to $k$; the rotation can be completely determined by specifying the orientation of $i$ and $j$ in this plane. If two unit vectors in this plane are known, $i$ and $j$ can be expressed as a linear combination of them. One such vector is the vector $e$ lying in the $x-y$ plane with components $\paren{\cos \alpha, \sin \alpha, 0} $ and another, perpendicular to both $k$ and $e$ is $f = k x e$ with components $\paren{-\sin \alpha, \cos \alpha \cos \alpha, \sin \beta}$. The vectors $i$ and $j$ can be expressed uniquely in the form 
+\begin{equation*}
+  \begin{split}
+    i &=  \ps e \cos \gamma + f \sin \gamma , \\ 
+    j &= -e \sin \gamma + f \cos \gamma .
+  \end{split}
+\end{equation*}
+The angles $\alpha, \beta, \gamma$ defined in this way are the Euler angles; it is observed that these angles characterize the rotation completely. The domain of the angles is $0 \le \alpha < 2\pi$. $0 \le \beta < \pi$, $0 < \gamma < 2\pi$. The vectors $e$ and $f$ are also shown in fig. \eqref{fig:9.2} and in fig. \eqref{fig:9.2} the vectors $i$ and $j$ are shown in the final position.
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   %\includegraphics[ width = 2in ]{example.jpg} 
+   \caption{The final position of $i$, $j$, $k$ following the rotation $Z\paren{\alpha} X\paren{\beta} Z\paren{\gamma}$ showing $i$ and $j$ rotated in the $e-f$ plane relative to $e$ and $f$ and $\gamma$.}
+   \label{fig:9.3}
+\end{figure}
+
+The vectors $i$ and $j$ have components 
+$$\paren{\cos\alpha \cos \gamma - \sin \alpha \cos \beta \sin \gamma, \cos\alpha \cos \gamma - \sin \alpha \cos \beta \sin \gamma, \sin \beta \cos \gamma}$$ 
+and
+$$
+\paren{-\cos\alpha \sin \gamma, - \sin \alpha \cos \beta \cos \gamma, -\sin \alpha \sin \gamma + \cos \alpha \cos \beta \cos \gamma, \sin \beta \cos \gamma}
+$$
+respectively.	The matrix that transforms the initial components of $i$, $j$, and $k$ to the
+final components has for its columns the components of $i$, $j$, and $k$ in their final position. The matrix  $\R$ with Euler angles $\alpha$, $\beta$, and $\gamma$ is, therefore,
+\begin{equation}
+\begin{split}
+  &\R \paren{\alpha, \beta, \gamma} = \\
+  &\mat{ccc}{
+  %
+  \cos \alpha \cos \gamma - \sin \alpha \cos \beta \sin \gamma &
+ -\cos \alpha \sin \gamma - \sin \alpha \cos \beta \sin \gamma &
+  \ps\sin \beta \sin \alpha \\
+  %
+  \sin \alpha \cos \gamma + \cos \alpha \cos \beta \sin \gamma &
+ -\sin \alpha \sin \gamma + \cos \alpha \cos \beta \cos \gamma &
+ -\sin \beta \sin \alpha \\
+  %
+  \sin \beta \sin \gamma & \sin \beta \cos \gamma & \ps\cos \beta
+  %
+  }
+\label{eq:9.6}
+\end{split}
+\end{equation}
+
+It can be verified by a direct calculation that the matrix $\R \paren{\alpha, \beta, \gamma}$ is equal to the matrix $Z\paren{\alpha} X\paren{\beta} Z\paren{\gamma}$ where
+\begin{equation}
+%
+  Z\paren{\alpha} = \mat{ccc}{
+  \cos \alpha & -\sin \alpha & 0 \\
+  \sin \alpha &  \ps \cos \alpha & 0 \\
+  0 & \ps 0 & 1
+  } , \ 
+%
+  X\paren{\beta} = \mat{ccc}{
+  1 & 0 & \ps 0 \\
+  0 & \cos \beta & -\sin \beta \\
+  0 & \sin \beta &  \ps \cos \beta
+  }
+%
+\end{equation}
+
+
+The matrix $Z(\alpha)$ is a rotation about the $z$ axis by $\alpha$ and the matrix $X(\beta)$ is a rotation about the $x$ axis by $\beta$.	The reason for this result can be explained as follows.	Consider first the rotation $Z(\alpha)X(\beta)$. The rotation $X(\beta)$ rotates $k$ within the $y-z$ plane to have colatitude $\beta$
+(and azimuthal angle -$\pi$/2) and leaves $i$ unchanged. The rotation $Z(\alpha)$ then rotates $k$ about the $z$ axis leaving the colatitude unchanged but increasing the azimuthal angle to $\alpha-\pi/2$; $Z(\alpha)X(\beta)$ therefore, rotates $k$ to its final position. The rotation $Z(\alpha)$ rotates $i$ in the $x-y$ plane; since it remains perpendicular to $k$ it is rotated into the vector that was called $e$. It follows that $j = k \times i$ is rotated by $Z(\alpha)X(\beta)$ into the position of the vector $f$. It can now be seen that if $Z(\alpha)X(\beta)$ is preceded by $Z\paren{\gamma}$ the result is $\R\paren{\alpha, \beta, \gamma}$ since $Z(\gamma)$ leaves $k$ unchanged but rotates the $x-y$ plane by $\gamma$; this means that $i$ and $j$ are rotated in the $x-y$ plane relative to $e$ and $f$ by an angle $\gamma$ and, following $Z(\alpha)X(\beta)$, are in their final position.
+
+The preceding argument shows that each rotation can be expressed by some choice of the Euler angles. The parametrization is, however, not unique for rotations about the $z$ axis for which $\beta = 0$, since
+any rotation $Z\paren{\phi} $ can be expressed in the form $\R \paren{\alpha, 0, \phi - \alpha} $ for arbitrary $\alpha$. This indicates that the parametrization is singular at $\beta = 0$ and in particular at the identity. This fact complicates somewhat the problem of finding the invariant weight function on the group.
+
+To conclude the discussion of the Euler angles we indicate how they may be determined for an arbitrary orthogonal matrix  $\R$ with elements $a_{ij}$ It can be seen by inspection of \eqref{eq:9.6} that
+\begin{subequations}
+\label{eq:9.8} 
+\begin{align} 
+%
+\tan \alpha &= -\frac{a_{13}}{a_{23}} \\ 
+%
+\cos \beta  &= a_{33} \\ 
+%
+\tan \alpha &= \frac{a_{31}}{a_{32}}
+%
+\end{align}
+\end{subequations}
+Equations \eqref{eq:9.8} leave the quadrants of $\alpha$ and $\gamma$ undetermined but these can be fixed from the signs of $a_{13}$ and $a_{31}$.
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   %\includegraphics[ width = 2in ]{example.jpg} 
+   \caption{A rotation about $v$ by $\phi$ constructed as successive rotations about $u_{1}$ and $u_{2}$ by $\pi$.}
+   \label{fig:9.4}
+\end{figure}
+
+In later applications the Euler angles $A$, $B$,  $\Gamma$ of the product $X\paren{\beta} Z\paren{\alpha} X\paren{\beta'} $ will be required. It can be verified by multiplying the matrices and comparing the result with \eqref{eq:9.6} that they are given (implicitly) by
+\begin{subequations}
+\label{eq:9.9} 
+\begin{align} 
+%
+\sin A &= \frac{ \sin \alpha \sin \beta'} { \sin B } \\ 
+%
+\cos A &= \frac{ \cos \beta \cos \alpha \sin \beta' + \sin \beta \cos \beta'} { \sin B } \\ 
+%
+\cos B &= \cos \beta \cos \beta' - \sin \beta \sin \beta' \cos \alpha \\ 
+%
+\sin \Gamma &= \frac{ \sin \alpha \sin \beta } { \sin B } \\ 
+%
+\cos \Gamma &= \frac{ \sin \beta \cos \alpha \cos \beta' + \cos \beta \sin \beta'} { \sin B } 
+%
+\end{align}
+\end{subequations}
+
+It is of interest to remark that any rotation can be expressed as the product of two rotations, each by $\pi$. To show this we suppose that a rotation is about an axis $v$ by an angle $\phi$. Let $u_{1}$ and $u_{2}$ be two vectors in the plane $P$ perpendicular to $v$ with an angle $\phi/2$ between them. A rotation by $\pi$ about either $u_{1}$ or $u_{2}$ rotates $P$ into itself and $\vecv{}$ into $\vecvm{}$. We consider a rotation about $\vecu{1}$ by $\pi$ followed by a rotation about $\vecu{2}$ by $\pi$.	The product of the two rotations is seen to leave $\vecv{}$ invariant and rotate $P$ into itself. Furthermore, the first rotation leaves $\vecu{1}$ invariant and the second rotation leaves $\vecu{1}$ an angle $\phi/2$ on the other side of $\vecu{2}$. The product of the rotations, therefore, rotates $\vecu{1}$ (and all other vectors perpendicular to $\vecv{}$) through an angle $\phi$. In Fig. 9-4 we show the axes $\vecu{1}$ and $\vecu{2}$ and a point that is rotated by $\phi$ in the plane perpendicular to $\vecv{}$.
+
+The product of two rotations can be calculated from this fact. Consider rotations  $\R_{1}$ and  $\R_{2}$ by angles $\phi_{1}$ and $\phi_{2}$ about axes $\vecv{1}$ and $\vecv{2}$ respectively. We consider a vector $\vecu{}$ in the intersection of the planes $P_{1}$ and $P_{2}$ perpendicular to $\vecv{1}$ and $\vecv{2}$. Let $\vecu{1}$ be a vector in $P_{1}$ such that the angle between $\vecu{1}$ and $\vecv{2}$ is $\phi_{1}/2$, and $\vecu{2}$ be a vector in $P_{2}$ such that the angle between $\vecu{}$ and $\vecu{2}$ is $\phi_{2}/2$. Then  $\R_{1}$ can be constructed as a rotation about $\vecu{1}$ by $\pi$ followed by a rotation about $\vecu{2}$ by $\pi$. Similarly,  $\R_{2}$ is a rotation about $\vecu{}$ by $\pi$ followed by a rotation about $\vecu{}$ by $\pi$.	The product  $\R_{2}\R_{1}$ ( $\R_{1}$ is performed first) is then a product of four rotations by $\pi$; the second and third are both about $\vecu{}$ by $\pi$ and, therefore, multiply to give $\I{}$. The product  $\R_{2}\R_{1}$ is, therefore, a rotation about $\vecu{1}$ by $\pi$ followed by a rotation about $\vecu{2}$ by $\pi$.
+
+
+\endinput

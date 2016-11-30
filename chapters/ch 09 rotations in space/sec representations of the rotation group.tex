@@ -1,0 +1,93 @@
+\section{Representations of the rotation group}
+
+Certain of the representations $\D^{j}\paren{\A}_{mn}$ of $SU(2)$ given by equation (8.11) also provide representations of the group $0(3)^{+}$. In order that this occur it is sufficient that $\D^{j}\paren{\A{}} = \D\paren{-\A{}}$; in this case each element of a coset of $Z_{2}$ is represented by the same matrix. The $\D^{j}\paren{\A{}}$, therefore, provide a representation of $SU(2) / Z_{2}$, and hence, also of $0(3)^{+}$. If the parameters of $\A$ are $\theta$, $\phi$, $\psi$ the parameters of $-\A$ are $\theta$, $\phi \, \pm \, \pi$, $\psi \, \pm \, \pi$.	Inspection of (8.11) shows that $\D^{j}\paren{\A{}} = \D\paren{-\A{}}$ if
+\begin{equation}
+  e^{\pm i \paren{m + n} \pi} \, e^{\pm i \paren{n - m} \pi } = 1 .
+  \label{eq:918}
+\end{equation}
+The left-hand side of \eqref{eq:918} is one of $e^{\pm 2 i n \pi}$, $e^{\pm 2 i m \pi}$.	If $j$ is an integer $m$ and $n$ are each integers and \eqref{eq:918} is satisfied; if $j = 1/2, 3/2, \dots,$
+$2m$ and $2n$ are each odd and $\D^{j}\paren{-\A{}} = -\D^{j}\paren{-\A{}}$. It can be concluded that the matrices $\D^{j}\paren{\A{}}$ can be used to construct representations of $0(3)^{+}$ provided $j$ is an integer.
+
+The representations can be obtained immediately by substituting $\theta = \beta / 2$, $\phi = \paren{\alpha + \gamma } / 2$, $\psi = \paren{\alpha - \gamma} / 2$ into (8.11). The result is
+\begin{equation}
+  \begin{split}
+    \D^{j}\paren{\alpha, \beta, \gamma}_{mn} 
+      &= i^{m-n} e^{-im\alpha} e^{-in\gamma} \\
+      &\quad \times \sum_{t} \paren{-1}^{t} 
+       \frac{ \paren{ \paren{l+m}! \paren{l-m}! \paren{l+n}! \paren{l-n}! }^{1/2} }
+            { \paren{l+m-t}! \paren{t+n-m}! t! \paren{l-n+t}! } \\
+      &\quad \times \cos^{2l+m-n-2t} \frac{\beta} {2} \sin^{2t+n-m} \frac{\beta} {2} \\
+      &= i^{m-n} e^{-im\alpha} d^{l}_{mn} \paren{\beta} e^{-in\gamma} 
+  \end{split}
+  \label{eq:919}
+\end{equation}
+where
+\begin{equation}
+  \begin{split}
+    d^{l}_{mn} \paren{\beta} 
+      &= \times \sum_{t} \paren{-1}^{t} 
+       \frac{ \paren{ \paren{l+m}! \paren{l-m}! \paren{l+n}! \paren{l-n}! }^{1/2} }
+            { \paren{l+m-t}! \paren{t+n-m}! t! \paren{l-n+t}! } \\
+      &\quad \times \cos^{2l+m-n-2t} \frac{\beta} {2} \sin^{2t+n-m} \frac{\beta} {2} .
+  \end{split}
+\end{equation}
+It should be pointed out that we have used the symbol $\D$ to denote two different functions defined by \eqref{eq:919} and (8.11). This should, however, give rise to no confusion.
+
+The representations $D^{l} \paren{R}$ are unitary and irreducible since they are unitary and irreducible as representations of $SU(2)$. They also exhaust the irreducible representations of $0(3)^{+}$, since any other irreducible representation would give rise to an irreducible representation of $SU(2)$ with the property that $\D \paren{\A}  = \D \paren{-\A}$. It is known, however, that the only irreducible representations with this property are	the	$\D^{j} \paren{\A}$,	$j$	an	integer.
+
+It can be seen from (8.13) and (8.20){\rd{$-$}}(8.22) that, in the special cases $m = \pm l$, or $n = \pm l$, the functions $d^{l}_{mn} \paren{\beta}$ are given by
+\begin{equation}
+  \begin{split}
+%
+    d^{l}_{-l,n} \paren{\beta} &= \sqrt{\frac{2l}{l+n}}\, \cos^{l-n} \frac{\beta}{2}\, \sin^{l+n} \frac{\beta}{2} \\
+%
+    d^{l}_{l,n} \paren{\beta} &= \paren{-1}^{l-n} \sqrt{\frac{2l}{l+n}}\, \cos^{l+n} \frac{\beta}{2}\, \sin^{l-n} \frac{\beta}{2} \\
+%
+    d^{l}_{m,-l} \paren{\beta} &= \paren{-1}^{l+m} \sqrt{\frac{2l}{l+m}}\, \cos^{l-m} \frac{\beta}{2}\, \sin^{l+m} \frac{\beta}{2} \\
+%
+    d^{l}_{m,l} \paren{\beta} &= \sqrt{\frac{2l}{l+m}}\, \cos^{l+m} \frac{\beta}{2}\, \sin^{l-m} \frac{\beta}{2} \\
+%
+  \end{split}
+\end{equation}
+%
+The representation $\D^{1}\paren{\alpha, \beta, \gamma}$ can be calculated to be
+\begin{equation}
+  \half \mat{ccc}{
+%
+    e^{i\paren{\alpha + \gamma}} \, \paren{1+\cos \beta} &
+ -i \sqrt{2} \, e^{i \alpha} \sin \beta & 
+    e^{i\paren{\alpha - \gamma}} \, \paren{1 - \cos \beta} \\
+%
+ -i \sqrt{2} e^{ i \gamma} \sin \beta & 
+      \cos \beta & 
+ -i \sqrt{2} e^{-i \gamma} \sin \beta \\ 
+%
+   -e^{ i\paren{\gamma - \alpha}} \paren{1 - \cos \beta} &
+ -i \sqrt{2}e^{-i \alpha} \sin \beta & 
+    e^{ i\paren{\alpha + \gamma}} \paren{1 + \cos \beta}
+%
+  }
+  \label{eq:922}
+\end{equation}
+It can be observed from \eqref{eq:922} that rotations about the $z$ axis are represented by diagonal matrices. This is in general the case; it follows immediately from (8.12) that
+%
+\begin{equation}
+  \D^{l} \paren{\alpha, 0, \gamma}_{mn} = e^{-i \paren{\alpha + \gamma}m } \delta_{mn}
+\end{equation}
+%
+The group element $\R\paren{\alpha, 0, \gamma}$ is, of course, a rotation about the $z$ axis by $\alpha + \gamma$. Rotations about the $x$ axis are represented by 
+%
+\begin{equation}
+  \D^{l} \paren{0, \beta, 0}_{mn} = i^{m-n} d^{l}_{mn} \paren{\beta}
+\end{equation} 
+%
+It is not difficult to see that a rotation about the $y$ axis by an angle $\beta$ can be generated by rotating first about the $z$ axis by $-\pi / 2$, rotating about the $x$ axis by $\beta$ and then rotating about the $z$ axis by $\pi / 2$. The rotation is, therefore, represented by
+%
+\begin{equation}
+  \D^{l} \paren{\frac{\pi}{2}, \beta, -\frac{\pi}{2}}_{mn} = d^{l}_{mn} \paren{\beta}
+\end{equation} 
+%
+The representation \eqref{eq:919} differs from that frequently given in that it includes an additional factor of $i^{m-n}$. This has been included to compensate for the fact that the Euler angles have been defined in the classical way so that the second rotation is about the $x$ axis rather than about the $y$ axis as is the case in most quantum-mechanical applications. The present results relations can be transcribed to the usual quantum-mechanical phase conventions by deleting the factor $i^{m-n}$, and regarding a rotation about the $x$ axis as being about the $y$ axis and a rotation about the $y$ axis as a negative rotation about the
+$x$ axis. The phases of the spherical harmonics, to be discussed in the next section, conform to the usual convention because of the inclusion of the extra factor $i^{m-n}$.
+
+\endinput

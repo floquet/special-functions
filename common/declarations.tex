@@ -1,0 +1,43 @@
+% other definitions
+\input{\fullpath/delimiters}
+\input{\fullpath/"matrix basics"}
+\input{\fullpath/reciprocals}
+
+% stray commands
+
+\def\ps{\phantom{-}}
+
+% vectors
+\newcommand{\vecu}[1]    { \mathbf{u_{#1}} }
+\newcommand{\vecv}[1]    { \mathbf{v_{#1}} }
+\newcommand{\vecum}[1]   { \mathbf{-u_{#1}} }
+\newcommand{\vecvm}[1]   { \mathbf{-v_{#1}} }
+
+% order
+\newcommand{\order}[1]   { \mathcal{o}\paren{#1} }
+\newcommand{\Order}[1]   { \mathcal{O}\paren{#1} }
+
+\newcommand{\mx}[2]      { \max\limits_{#1 \in \cmplx{ #2 }} }
+\newcommand{\mn}[2]      { \min\limits_{#1 \in \cmplx{ #2 }} }
+
+% colors
+\newcommand{ \rd }[1]    { \color{red}    { #1 } }
+
+% matrices
+\newcommand{ \A }[0]     { \mathbf{ A } }
+\newcommand{ \D }[0]     { \mathbf{ D } }
+\newcommand{ \I }[0]     { \mathbf{ I } }
+\newcommand{ \PP }[0]    { \mathbf{ P } }
+\newcommand{ \Q }[0]     { \mathbf{ Q } }
+\newcommand{ \R }[0]     { \mathbf{ R } }
+\newcommand{ \X }[0]     { \mathbf{ X } }
+\newcommand{ \Z }[0]     { \mathbf{ Z } }
+
+\newcommand{ \x }[0]     { \mathbf{ x } }
+
+% derivatives
+\newcommand{ \pd }[2]    { \frac{\partial #1} {\partial #2}}
+\newcommand{ \pdt }[2]   { \frac{\partial^{2} #1} {\partial #2}}
+
+
+\endinput

@@ -1,0 +1,22 @@
+\section{Homomorphisms}
+
+A more general relation between two groups than isomorphism is that of homomorphism. A mapping $f$ from a group $G$ onto a group $G'$ is said to be a \emph{homomorphism} if for every pair of elements $a$, $b$ in $G$, $f(a)f(b) = f(ab)$.	(Note that $f(a)$, $f(b)$, and $f(ab)$ are elements of $G'$.) A homomorphism is more general than an isomorphism in that several elements of $G$ may be mapped into a single element of $G'$, so that $f$ may not have a single-valued inverse. It is required, however, that every element of $G'$ be the image of some element of $G$.	(This is implied by the preposition ``onto.'')
+
+In this section a few simple properties of homomorphisms will be described. The image of $e$, the identity in $G$, is $e'$, the identity in $G'$; that is, $f(e) = e'$. This can be shown in the way that the same result was proved for isomorphisms. Similarly, the images of reciprocals are again reciprocals:	$f(a)f(a^{-1}) = f(e) = e'$ or $f(a^{-1}) = \paren{f(a)}^{-1}$.
+
+It is interesting to observe that the set of elements of $G$ that are mapped by $f$ into the identity $e'$ of $g'$ is a normal subgroup of $G$. This set is called the \emph{kernel} of $f$ and is often denoted by $K$. An element $k$ of $G$ is in $K$ if $f(k)=e'$. If $k_{1}$ and $k_{2}$ are both in $K$, $f(k_{1}k_{2})=f(k1)f(k2) = e,2 = e'$ showing that $k_{1}k_{2}$ is also in $K$. Moreover, if $f(k) = e'$, $f(k^{-l}) = e'^{-1} =e'$, showing that $k^{-1} \in K$ and hence that $K$ is a subgroup. To show that $K$ is a normal subgroup, we consider its cosets. It will be shown that all elements of a coset of $K$ map onto a single element of $G'$, and conversely, that all the elements of $G$ that are mapped onto a single element of $G'$ belong to the same coset of $K$. Let $aK$ be a left coset of $K$ and suppose $x\in  aK$. Then $x= ak$, $k \in  K$, and $f(x) =f(a)f(k) =f(a)$, showing that all elements of $aK$ are mapped by $f$ into $f(a)$. Conversely, if $f(x) = f(a)$, $f(a^{-1}x) = f(a)^{-1}f(x) = e'$, implying that $a^{-1}x \in  K$ and that $x \in  aK$. It can be concluded that the coset $aK$ is the set of all elements $x$ such that $f(x) = f(a)$. These considerations apply just as well to $Ka$ so that $aK = Ka$ and $K$ is normal.
+
+It is evident that there is a 1-1 correspondence between cosets of $K$ and elements of $G'$ defined by the relation
+\begin{equation}
+  aK \longleftrightarrow f\paren{a} 
+  \label{eq:2.4}
+\end{equation}
+Furthermore, this $1-1$ correspondence is an isomorphism between $G'$ and the factor group $G/K$ composed of the cosets of $K$, as is shown by the calculation $(aK) (bK) = abK$ {\rd{ ?? }}	$f(ab) = f(a)f(b)$. These findings can be summarized as a theorem.
+
+\begin{theorem}
+Let $f$ be a homomorphic mapping of a group $G$ onto a group $G'$. Then the set $K$ of elements of $G$ that map onto the identity of $G'$ is a normal subgroup of $G$, the set of elements of $G$ that map onto an element $a'$ of $G'$ is a coset of $K$, and $G/K$ is isomorphic to $G'$.
+
+If $N$ is a normal subgroup of $G$, it is easy to see that the mapping of $G$ onto $G/N$ that maps each element of $G$ onto the coset of which it is a member is a homomorphism. This is known as the \emph{natural homomorphism} of $G$ onto $G/N$; the kernel of the natural homomorphism is obviously $N$, since $N$ is the identity of $G/N$.
+\end{theorem}
+
+\endinput
