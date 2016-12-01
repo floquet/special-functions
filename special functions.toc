@@ -9,15 +9,18 @@
 \contentsline {section}{\numberline {3.2}Compact Groups}{16}
 \contentsline {section}{\numberline {3.3}Locally Isomorphic}{17}
 \contentsline {section}{\numberline {3.4}Properties of the Product Functions}{17}
-\contentsline {chapter}{\numberline {4}Lie algebras}{19}
-\contentsline {chapter}{\numberline {5}Invariant integration}{21}
-\contentsline {chapter}{\numberline {6}Group representations}{23}
-\contentsline {chapter}{\numberline {7}Completeness Theorems for Group Representations}{25}
-\contentsline {chapter}{\numberline {8}The Groups U(1) and SU(2)}{27}
-\contentsline {chapter}{\numberline {9}Rotations in space}{29}
-\contentsline {section}{\numberline {9.1}General properties of the rotation group }{29}
-\contentsline {section}{\numberline {9.2}The functions $v^{\alpha }_{\beta }$ and invariant integration}{34}
-\contentsline {section}{\numberline {9.3}The homomorphism of $SU(2)$ onto $O(3)^{+}$}{35}
-\contentsline {section}{\numberline {9.4}Representations of the rotation group}{37}
-\contentsline {section}{\numberline {9.5}Harmonic polynomials and representations of $O(3)^{+}$}{39}
-\contentsline {section}{\numberline {9.6}Differential equations for the group representations}{44}
+\contentsline {section}{\numberline {3.5}One Parameter Subgroups}{19}
+\contentsline {section}{\numberline {3.6}Canonical Coordinates}{21}
+\contentsline {section}{\numberline {3.7}One Parameter Subgroups of Matrix Groups}{23}
+\contentsline {chapter}{\numberline {4}Lie algebras}{25}
+\contentsline {chapter}{\numberline {5}Invariant integration}{27}
+\contentsline {chapter}{\numberline {6}Group representations}{29}
+\contentsline {chapter}{\numberline {7}Completeness Theorems for Group Representations}{31}
+\contentsline {chapter}{\numberline {8}The Groups U(1) and SU(2)}{33}
+\contentsline {chapter}{\numberline {9}Rotations in space}{35}
+\contentsline {section}{\numberline {9.1}General properties of the rotation group }{35}
+\contentsline {section}{\numberline {9.2}The functions $v^{\alpha }_{\beta }$ and invariant integration}{40}
+\contentsline {section}{\numberline {9.3}The homomorphism of $SU(2)$ onto $O(3)^{+}$}{41}
+\contentsline {section}{\numberline {9.4}Representations of the rotation group}{43}
+\contentsline {section}{\numberline {9.5}Harmonic polynomials and representations of $O(3)^{+}$}{45}
+\contentsline {section}{\numberline {9.6}Differential equations for the group representations}{50}

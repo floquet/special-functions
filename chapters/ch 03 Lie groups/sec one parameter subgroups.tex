@@ -1,0 +1,76 @@
+\section{One Parameter Subgroups}
+
+The investigation of the structure of a Lie group G is facilitated by the construction of the one-parameter subgroups of G. A one-parameter subgroup is a "curve" a(t) in the group with the property that
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      a(s) + a(t) = a(s+t)
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+The variable t is a real number that serves to label the group elements in the subgroup; it is the "one-parameter." Corresponding to an element a(t) £. G, there is a point p(t) in a parameter domain. An additional requirement on the one-parameter subgroup is that the points p(t) constitute one or more continuous curves in each parameter domain through which it passes. A rather trivial one parameter subgroup is defined by a(t) = e. If a(t) is a one-parametersubgroup, a( O!t) is also one consisting of the same group elements but differing in the scale of the parameter.
+\begin{figure}[htbp]
+    \begin{center}
+          \includegraphics[ width = 1in ]{images/"figure 9-1 naked"}
+        \caption{default}
+        \label{tab:fig 3-1}
+    \end{center}
+\end{figure}
+It is evident from (10) that a(O) = e and that [a(t)r1 = art). The one-parameter subgroup can be shown to be isomorphic to either R, the group of real numbers under addition, or to R/Z, the factor group discussed in Section 3 of this chapter, depending on whether or not there is a number t1 such that a(t1) =e.It has been implied that the one-parameter subgroups may pass through several parameter domains. It may also cross the boundary of a parameter domain and reenter it at another point.We shall first assume the existence of a one-parameter subgroup and obtain some of its properties. It will then be shown that there are one-parameter subgroups and that in a sufficiently small neigh-borhood of e, each.element is contained in a one-parameter subgroup. We restrict our attention now to the parameter domain containingthe coordinates of e (which is the origin in the coordinate system of that domain). If it is assumed that the coordinates p(t) are differentiable functions, a first-order differential equation can be derived for the subgroup. The tangent vector to p(t) at t =0 will be denoted by a; that is
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      a = \dot{p}(0)
+   %\end{split}
+   %\label{eq:}
+  \end{equation}
+From equation (10) and the definition of the product functions f we can write
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      1 + 1
+   %\end{split}
+   %\label{eq:}
+  \end{equation}
+at least for sand t close enough to 0 so that p(s), p(t), and p(s + t) remain in the original parameter domain. A differential equation for p(t) is obtained by differentiating (12) with respect to t,
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      p a s
+   %\end{split}
+   \label{eq:3-12}
+  \end{equation*}
+and setting t = O. Using (8) and (11), one obtains
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      p a s
+   %\end{split}
+   \label{eq:3-13}
+  \end{equation}
+Equation (13) shows that the matrix whose elements are va,s (p) transforms the tangent vector at e of a one-parameter subgroup into the tangent vector at p, as shown in Fig. 3-1. It should be noted that, according to (3) and (8),
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      v a b
+   %\end{split}
+   %\label{eq:}
+  \end{equation}
+This is necessary if (13) is to be consistent at e. It is also observed that matrix vj, (P) is nonsingular, since it is a special case of the matrix ofajoq,s.The initial condition pa (0) =0 can be added to the system of equations (13). A standard result, the Picard-Lindelof theorem [1], ofthe theory of ordinary differential equations guarantees that if the functions va (p) a,s have bounded derivatives with respect to their arguments (itepY in this case), then there is an interval r-e, e) I::>uch that the equations (13) have a unique solution for s in this interval. The differentiability condition is satisfied in the present case since the product functions are at least twice differentiable in the parameter domain. We consider now a solution of (13), satisfying p(O) =0, for some particular choice of the a,s. It is to be expected that these solutions will also satisfy (12) and therefore describe at least partof a one-parameter subgroup. The components of the tangent at e to the subgroup will then be the a,s. This is the content of the following theorem.
+\begin{theorem}
+A set of functions p(s) that satisfy \eqref{eq:3-13} for s in the interval r-e, e) with initial condition p(O) = 0 also satisfy \eqref{eq:3-12} for s, t, and s + t in the same interval. These functions can be used to generate a complete one-parameter subgroup.
+\end{theorem}
+\begin{proof}
+The method of proof is to show that each side of \eqref{eq:3-12}, considered as a function of t, satisfies the same first-order differential equation with the same initial conditions; the uniqueness theorem for the solution then guarantees that the two sides are the same. The left-hand side of (12) will be denoted by la(t); differentiating with respect to t and using (13) gives
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      1
+   %\end{split}
+   %\label{eq:}
+  \end{equation}
+This equation is in fact identical to (13) but with the initial condition l(O) = p(s). The right-hand side of (12) will be denoted by r a (t). Differentiating r with respect to t and using successively (13), (9), and the definition of r gives
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      3-16
+   %\end{split}
+   %\label{eq:}
+  \end{equation}
+This equation is identical to (15) so that it can be concluded that r(t) and l(t) satisfy the same differential equation. Furthermore,r(O) =f(p(s), 0) =p(s) so that rand l satisfy the same initial condition. The uniqueness theorem for the solution of the differential equations guarantees that r(t) and l(t) are the same in any interval in which thesolutions exist, that is, provided s, t, and s + t are all in (- £ , £) since the solution of (15) or (16) is then obviously p(s + t).If a solution of (13) is known in the interval [-£, £], which can be assumed to be closed, it can be continued outside the interval by expressing an arbitrary parameter t in the form n£ + 0 where n is an integer and 0 :s 0 < £. The group element a(t) can then be defined to be [a(£)]na(o). It can be seen that the function a(t) defined in this way is a one-parameter subgroup since the various factors involved in the construction all commute. This subgroup is constructed in the group; a particular parameter domain may contain the coordinatesof only a limited part of the subgroup. Henceforth, when we refer to the coordinates p(t) of a one-parameter subgroup, we mean the arc connected to the origin in the domain that contains the coordinates of the identity. It is also convenient to call p(t) one-parameter subgroup, even though it may really only be part of one.
+\end{proof}
+
+
+\endinput  % ---------------------------------------------------------------------
