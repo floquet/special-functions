@@ -7,6 +7,8 @@
 \contentsline {chapter}{\numberline {3}Lie Groups}{13}
 \contentsline {section}{\numberline {3.1}Lie Groups}{14}
 \contentsline {section}{\numberline {3.2}Compact Groups}{16}
+\contentsline {section}{\numberline {3.3}Locally Isomorphic}{17}
+\contentsline {section}{\numberline {3.4}Properties of the Product Functions}{17}
 \contentsline {chapter}{\numberline {4}Lie algebras}{19}
 \contentsline {chapter}{\numberline {5}Invariant integration}{21}
 \contentsline {chapter}{\numberline {6}Group representations}{23}
