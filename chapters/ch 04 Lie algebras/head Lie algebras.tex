@@ -1,6 +1,131 @@
 \chapter{Lie algebras}
 
-%%
-%\input{chapters/"ch 04 Lie algebras"/"sec abstract definition"}
+The properties of a Lie group that pertain to elements in the neighborhood of the identity can be investigated and characterized by considering another mathematical structure associated with the group, the Lie algebra of the group. The purpose of this chapter is to define Lie algebras, and to discuss, rather superficially, the relation between a Lie group and the corresponding Lie algebra.The Lie algebra of an arbitrary Lie group will be defined in Section 1, and in the second section this definition will be related to the Lie algebra of a matrix group, which can be defined, somewhat differently, as a matrix algebra.Further properties of Lie algebras are developed in Sections 4, 5, and 6. In Section 7 the Lie algebras of some of the important matrix groups are calculated, and in Section 8 all the Lie algebras of dimension 1, 2, and 3 are catalogued.Some of the theorems which are more difficult to prove will be stated without complete proof in this chapter. These theorems concern the relation between Lie groups and Lie algebras; their proofs can be found in Pontrjagin's classic work [1].The term Lie algebra was introduced by H. Weyl to replace the earlier somewhat misleading term, infinitesimal group, used by Lie.4-1 ABSTRACT DEFINITION OF A LIE ALGEBRAThe elements of a Lie algebra are real, n-dimensional vectors a, and a Lie algebra A is an n-dimensional vector space. A Lie algebra is constructed from a Lie group G by defining the vectors a tobe the tangents at the identity to (at least twice) differentiable curves in the group These curves may, but need not, be one-parametersubgroups. In any event, for any a e A there is, according to Theorem 3-1, a one-parameter subgroup p(s) such thatin .P(O) = a.
+The linear properties of A are related to the group properties of G. If, for example, a and b are tangent to curves p(s) and q(t) respectively in the group, a + b is tangent to the curve r(s) = p(s) q(s). The parameters of r(s) are given by rqs) =fD'(p(s), q(s»; therefore·a 8fa .{3 8fa '{3 a a r (0) =8p{3 (O,O)p (0) + 8q{3 (O,O)q (0) =a + bbecause of (3.3) and (1). If a is tangent to the curve p(s), Q'a is      gent top(as). In particular, if p(s) is a one-parameter subgroup, anda is an integer, Q'a is tangent to [p(s)]a. In a very loose sense, A can be regarded as the space of "logarithms" of group elements.In an algebra, not only linear combinations, but also products of elements are defined. In the case of a Lie algebra, the product of two elements is called the commutator and is constructed from the group commutator., Suppose a andb are tangent to twice differentiable curves p(s) and q respectively. It is convenient, but not necessary, to assume that p(s) and q(t) are one-parameter subgroups. We form the functiona(s,t) =P(s)q(t)p(s)-iq(t)-i, (4.2)where p(s), q(t) represent the group elements with these parameters . Equation (2) determines, in general, a surface in the group. The parameters r of a(s, t) are given by(4.3a)LIE whereTh whOSEThe ( const Tl to sirwew: choic Tl finedAl tor tdefin T as aTHE met]andE q ur a (s, t) = ra(f(p (8), q(t», f(p (-8), q (-t»)if p(s) and q(t) are one-parameter subgroups. We consider expandingr a(s, t) to second-order in a Taylor series in sand t:a a a a .a2 at at2r (8,t) =ao +   8 + a2 t + a11 s +    8 + a22 + ???? (4.3b) This is possible since p(s), q(t) , and also the product functions are atleast twice differentiable.It can be seen from (2) that a(O, t) = e for all t since p(O) = p(O)-1=e and hence that ra(O,t) =0. Putting s =°in (3b) shows that aoa = a2a = a22a = 0. Similarly, it can be shown by putting t = 0 that a1a=a11a =0, so thatr a ( 8 , t ) =       + ? ? ? ?The coefficients a12Q' can be calculated from equations (3):82ra [ 82fa 82fa J. .     = 8s8t (0,0) = 8p{38q 'Y (0,0) - 8q{38p'Y (0, O)J p{3 (O)q'Y (0)( 4 . 3 c )=ca       b 'Y
+wherea    c (3y = apf3aqY (0,0) -   apYaq{3 (0,0).29(4.4b).4a)The commutator [a, b] of the elements a and b of A is the vector whose components are defined byba a a {3Y [a,]=   =C{3yab?(4.5a)The coefficients ca (3y defined in (4b) are known as the structure constants of the Lie algebra.The choice of p(s) and q(t) as one-parameter subgroups was made to simplify the discussion and is not essential. It can be shown, but we will not do this, that the definition of [a, b] is independent of the choice of curves to which a and b are tangent.The unit vectors in A, that is, the vectors ea with components defined by (ea)fJ = 0afJ, can be seen to satisfy(4.5b)Another definition of the commutator is that it is the tangent vector to the curve a(rs, -IS), as defined by (2). The advantage of this definition is that it is independent of the parametrization in the group.Two simple consequences of equations (4b) and (5a) can be stated as a theorem.THEOREM 4-1. The commutation operation satisfied the antisymmetry propertyand the linearity propertiesEquations (6} imply that [a, a] = 0 and that cafJfJ = o.(4.6)(4.7a)(4.7b)The structure constants depend on the parametrization chosen for the group G. Under a change in parametrization of G, the vectorsea of equation (5b), which are unit vectors along the coordinate axes , must be expressed in terms of ffJ, the unit vectors along the new coordinate axes. Explicitly, ea = sa(3f[, f(3 = t(3a ea , where sa(3 = op·(3lopa (0) and t(3a = opa lop·(3(o). I cPaT are the structure constants in the new representation, we can write(3y -t[3YO! [fa,fTl=ta tT [e(3,eyl- a tT c (3yeO!= ta (3t T YsO!Pca(3yfp =cP aTfp'This shows that in the new parametrization the structure constants are given by (4.8)If two Lie algebras are of the same dimension and their structure constants are the same or can be connected by a transformation of the form (8), where the t af3 are the matrix elements of the inverse of the matrix whose elements are SO! P, the Lie algebras are said tobe isomorphic. All isomorphic Lie algebras are essentially the same; the properties of one of them imply all the algebraic properties of the others.If the commutator of any pair of elements in a Lie algebra is zero, the algebra is said to be Abelian.4-2 LIE ALGEBRA OF A MATRIX GROUPIf a Lie group is a matrix group, it is possible to define its Lie algebra not as tangents in the parameter space, but as a set of matrices. The result is a Lie algebra isomorphic to that of the definition of the previous section, that is, it is a vector space of tL", same dimension and has a commutation operation defined with the same structure constants. The commutation operation is in this case, moreover, the operation of forming matrix commutators, that is,[A"B] =AB - EA. (4.9)We consider a Lie group G of matrices A(p) with the group operation being that of matrix multiplication. It will be assumed that the elements of A are differentiable functions of the parameters p. Suppose that a =p(O) is an element of the Lie algebra A of G; a is the tangent at 0 to a curve p(t) in the parameter space.Corresponding to the curve p(t) there is a matrix function A(p(t». We can calculateA(P(O)) = oAO! (0) pO! (0) = IO!aO! (4.10) op
+where
+It will be assumed, although it can be proved on the basis of the previous axioms, that the IO! are linearly independent. This will be evident in all the examples that are considered. There is then a nonzero matrix 100aO! corresponding to each a [, A. The set A' of such matrices is an n-dimensional vector space, which will be shown also to be a Lie algebra. The matrices IO! are called the generators of AI.It will now be shown that Ipl 'Y - lylj3 is also in Al and is, in fact, cO!,B'YIO! where the cO!,B'Y are the structure constants of A. This is shown by applying equation (2) directly to G, with p(s) and q(t) assumed to be one-parameter subgroups:     1.9)ra-leIp-;» .The desired result can be obtained by evaluating the second derivative, with respect to sand t, of this identity, at s =t =O. It is simpler, however, to expand each side to second order in sand t and equate the coefficients of st on each side. Since we have seen that terms in s2 and t2 do not appear in equation (3b), it is sufficient toexpand A(P(s» and A(q(t» to first order in s and t, that is,A(P(s» =I+    (O)a,Bs+???=I+l,Ba,Bs+....Similarly,A(q(t» =1+l'Yb'Yt+....To first order in sand t, A(P(-s» =1-I paPs, and A(q(-t»=1- 1'Yb'Yt. In the desired approximation we can also write rO!(s, t) =cO!p'Ya fib 'Y st and therefore A(r(s, t» =1+ 1O!cO!fi'Ya fib'Y st. Equa- tion (12) is therefore, in second order,
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      a
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+Equating the coefficient of st on each side shows that
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      b
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+The numbers a fl and b I' can be chosen arbitrarily, and therefore
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      b
+   %\end{split}
+   \label{eq:4-13}
+  \end{equation}
+Comparison of this result with (5b) shows that the basis vectors 10' in A' satisfy the same relations, under the product defined by (9), as the basis vectors eO' in A. Furthermore, the product in (9) is linear in the factors A and B so that if a 0' 10' and bfllfl correspond to a and b respectively, (aala)(bfl1fl) - (bflIfl)(aO'Ia ) corresponds to [a, b]. Explicitly,
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      c
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+We can conclude:
 
-\endinput
+\begin{theorem}
+The Lie algebra AI spanned by matrices $\Lambda'$ defined by equation \eqref{11} with multiplication defined by \eqref{9}, is isomorphic to the Lie algebra $\Lambda$ defined by equations \eqref{1} and (5a).
+\end{theorem}
+It should be remarked that equations \eqref{11} and \eqref{13} depend on the possibility of differentiating the matrices with respect to their para- meters; this in turn is based on the possibility of taking linear com- binations (which are not defined in an arbitrary Lie group) of ma- trices. The resulting matrices, the 10', are not, in general, groupelements.
+
+\section{Example}Before discussing further properties of Lie algebras, the rather abstract considerations of the last two sections will be illustrated by an example. We choose for this the affine group in one dimension, conSisting of matrices of the form=abc 0'BIY=[a, ] II'.A(pi,p2) = (epi p2) o1'The law of group multiplication is given by f1(pt,p2;qi,q2) =pi + qt
+
+The elements of the Lie algebra in the abstract sense are two-dimensional vectors a = (a1, a2). It can be verified directly that the subgroup associated with this vector consists of the matrices
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      A(s) = \mat{cc}{e^{a^{1}s} & \frac{a^{2}}{a^{1}}\paren{e^{a^{1}s}-1} \\ 0 & 1}
+   %\end{split}
+   \label{eq:4-16}
+  \end{equation}
+The parameters of a(s, t) can be obtained by comparison with \eqref{eq:4-14}:
+\begin{subequations}
+    \begin{eqnarray}
+         p^{1} = 0 \\
+         p^{2} = 0
+    \end{eqnarray}
+\end{subequations}The element a(s, t) can be obtained by a bit of computation. 2 2'
+The last line in (17b) give p2 correctly up to second-order terms in sand t. By equations (3c) and (5a) we conclude that(4.18)The one-parameter subgroup associated with this element of the Lie algebra is obtained from (16) by substituting 0 for a1 and a1b2- a2b1fora2. It is, taking the limit ,1 (a1b2 -la2b1)S) A(s) = 0The commutator could also have been obtained by calculating the structure constants from equation (4b). For this purpose only and C212 are needed; the remainder are either zero or can be obtained from equation (6). From equation (15) it is seen thatand hence that     0 =-c121' Also,so that C212=-C221=1-0=1. From(5a) it is found therefore that
+[a,b1i =0in agreement with the previous calculation. We have used the fact also that  =C122 =C211 =C222 =O.The "more concrete" form of the Lie algebra makes use of the matrices Ia = 8A / 8pa(O). These are, from (14),I ,   C : ) I ,    The general element of the algebra isa i ai It + a212 = ( 0a 2 )
+These matrices form a 2-dimensional vector space and at[ai I1 + a2I2,b1It + b2I2] =( 0   ,a'b' a'b'),which corresponds to the [a., b1 of (18). Evidently the constructionof the Lie algebra is most straightforward from the matrix definition. However, the definition in terms of tangent vectors is more natural for abstract groups and also permits a simpler discussion of some of the relations between Lie algebras and Lie groups. These relations will be discussed in Section 6 of this chapter.4-4 THE JACOBI IDENTITYIt has been seen that the commutation operation in a Lie algebra satisfies the antisymmetry and linearity properties of equations (6) and (7). These are not in themselves sufficient to define a Lie algebra; a third property, the Jacobi identity, must also be satisfied. The identity is:THEOREM 4-3[a, [b,c]] + [C, [a,b]] + [b, [C,a]] = O.0
+The identity is a reflection of the associative law of group multiplication, although this fact is not obvious.If the Lie group is a matrix group, the a, b, c are matrices andthe commutators in (19) can be evaluated from equation (9). In this case equation (19) is a consequence of the associative law of matrix multiplication as one finds by writing out the 3 x 2x 2 = 12 terms explicitly. Inasmuch as there is a matrix group locally isomorphic to any Lie group (though we have not proved this and will prove it in Chapter 6 only for groups that have a center conSisting only of e), equation (19) is a consequence of the simple proof for matrix Lie groups. Equation (19) can, however, be proved directly from the associative law (3.2) of group multiplication. The method of proof is to differentiate (3.2) three times, with respect to pJ3,qY, and r 0, and evaluate the result atp =q =r = o. The resulting identity can be rearranged to demonstrate (19). The calculation is, however, tedious and not instructive, and will not be given here. It should be noted that although the Jacobi identity is closely connected with the associative law of the group, the associative law need not be valid for the multiplication law of the algebra.Equation (19) provides a restriction on the structure constants.If a, b, c are basis vectors e{3, ey, eo and equation (5b) is taken into account, the result is
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      e^{\alpha}
+   %\end{split}
+   %\label{eq:}
+  \end{equation}
+This is the O'th component of the identity. In (20) the indices 0', {3,y, 0 are free and J.1 is a summation index; the three terms are generated by cyclic permutations of (3, y, and o. If any two of these are equal, (20) reduces to an identity as a result of the antisymmetry relation (6). Hence in the previous example of a 2-dimensional Lie algebra, the Jacobi relations are automatically satisfied. Equation (20) is actually the result that is derived from the group associativelaw (3.2), rather than (19).An n-dimensional linear vector space with a product defined thatsatisfies the linearity, antisymmetry and Jacobi identities is also said to be a Lie algebra, whether or not it can be constructed from a Lie group. It was shown by Lie that for every such Lie algebra, there is a local-Lie group that has that Lie algebra. A local Lie group is essentially a set of functions f defined in some neighborhood of the origin that satisfy equation (3.1) and (3.2) and therefore define, for points p and q in the neighborhood of the origin, a product. The local Lie group may not be a Lie group, however, since f(P, q) may be outside the domain of the product functions, so that multiplication by f(p, q) is not defined. The proof of this result is quite involved and will not be given here.19)The identity is a reflection of the associative law of group multiplication, although this fact is not obvious.If the Lie group is a matrix group, the a, b, c are matrices andthe commutators in (19) can be evaluated from equation (9). In this case equation (19) is a consequence of the associative law of matrix multiplication as one finds by writing out the 3 x 2x 2 = 12 terms explicitly. Inasmuch as there is a matrix group locally isomorphic to any Lie group (though we have not proved this and will prove it in Chapter 6 only for groups that have a center conSisting only of e), equation (19) is a consequence of the simple proof for matrix Lie groups. Equation (19) can, however, be proved directly from the associative law (3.2) of group multiplication. The method of proof is to differentiate (3.2) three times, with respect to pJ3,qY, and r 0, and evaluate the result atp =q =r = o. The resulting identity can be rearranged to demonstrate (19). The calculation is, however, tedious and not instructive, and will not be given here. It should be noted that although the Jacobi identity is closely connected with the associative law of the group, the associative law need not be valid for the multiplication law of the algebra.Equation (19) provides a restriction on the structure constants.If a, b, c are basis vectors e{3, ey, eo and equation (5b) is taken into account, the result is0' J.1 0' CJ.1 0' J.1 -0 c {3J.1c yo+c 0J.1 {3y+c yJ.1c 0{3 ?(4.20)It is, furthermore, true that groups that have the same Lie algebra are locally isomorphic. It is from this fact that the Lie algebra obtains its importance; it determines all the properties of the elements of a Lie group in the neighborhood of the identity, that is, all the local properties. This is a consequence of the proof of Lie's theorem, in which the functions f are constructed in canonical coordinates as solutions of partial differential equations, and the uniqueness of the solutions of these equations can be demonstrated.4-5 SUBALGEBRAS AND FACTOR ALGEBRASIt is possible to define, in analogy to group theory, ,a subalgebraof a Lie algebra. An m-dimensionallinear subspace M of a Lie algebra A is a subalgebra if, for each pair a and b in M, [a, bl is also in M. It is possible to formulate the existence of a subalgebra in terms of the structure constants. The basis vectors {e;J- could, ifM is a subalgebra, be chosen so that e10 e2, ... , em are in M. The conditionthatrei.ejl £, MifeiandejareinMcanbeseentobe
+(4.21)It is apparent that M is a subalgebra if there is a transformation of the form (8) such that the transformed structure constants have the property (21).A subalgebra M is said to be an ideal if, for each a £, Aand x£, M, [a, xl £, M. It will be seen that the ideal is the analogue of the normal subgroup of group theory and could perhaps be more suitably called a normal subalgebra. In the coordinate system in which the first m basis vectors are in M, the structure constants satisfycO'B =0, 0' > m, f3 :::; m (4.22) ,')Ifor all ')I. Again we remark that A contains an ideal if the structure constants can be transformed to have property (22).If a Lie algebra A contains an ideal M, it is possible to definea factor algebra AIM as follows. We consider the set a + M of all elementsoftheforma+m,m £, M. Thissetisinfactagroup theoretic coset of M where M is a normal subgroup of A under the group operation of vector addition. Two elements a and a' are in the samecosetifandonlyifa- a'£, M.Thefamilyofallcosetsa+M is defined to be the factor algebra AIM. It is necessary to define the linear and commutation operations in A1M. These are given byc (a + M) = ca + M,(4.23
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      (a + M)
+   %\end{split}
+   %\label{eq:}
+  \end{equation}
+  \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      [a + M]
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+In order that these definitions be consistent, it is necessary to verify that they are independent of the choice of a and b from their respective cosets. We will do this for (25) and leave to the reader the corresponding arguments for (23) and (24). If a' and b' are arbitrary elements from a + M and b + M, we can write a' = a + m1 and b' =b+m2 where m1 and m2 are in M. In terms of a' and b',(25) becomes  
+   \begin{equation*}   %  =   =   =   =   =
+   %\begin{split}
+      6
+   %\end{split}
+   %\label{eq:}
+  \end{equation*}
+since [a, m2], [mb b], and [mb m2] are all inM and m + M = M if m £ M. It is here that the property that M is an ideal is used. The zero
+\begin{figure}[htbp]
+    \begin{center}
+        \includegraphics[ width = 1in ]{images/"figure 9-1 naked"}
+        \caption{A 2-dimensional Lie algebra with ideal M. The elements of AIM are lines parallel to M. In this case AIM is Abelian, since it is one-dimensional.}
+        \label{fig:4-1}
+    \end{center}
+\end{figure}
+element of AIM is the coset M. It is easy to verily from (25) that antisymmetry and Jacobi conditions are satisfied in AIM. InFig. 4-1 we show A as a plane and M as a line through the origin; the factor algebra AIM consists of all lines parallel to M.
+A Lie algebra A is said to be homomorphic to a Lie algebra N if there is a linear function f mapping A onto N with the property that for any pair of elements a and b in A
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      f(a,b)
+   %\end{split}
+   %\label{eq:}
+  \end{equation}We note for completeness that a linear function is one with the property that
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      f(a,b)
+   %\end{split}
+   %\label{eq:}
+  \end{equation}
+and that this implies $f(O) = 0$.
+
+If a Lie algebra A is homomorphic to a Lie algebra N, the set K zo of elements of A that map into the zero element of N is called the kernel of the homomorphism. That is, a £, K if and only if f(a) [eO'ideal since if x £, K, a £, A, f([x, aD = [f(x),f(a)] = [0, f(a)] =0, and hence [x, a] £, K. To complete the analogy to group theory, we remark that the factor algebra A/K is isomorphic to N by the correspondenceif a ele: iso: adj' tati4-Ealgob' im =CG'SUIeXIATto whaCe tia gha +K-f(a).(4.28)If the kernel of f is 0, f has an inverse and is, therefore, an isomor- phism.
+
+The set Z of all elements z of a Lie algebra with the property that [z,a] =°for all a £, A is called the center of A. It can be readily established that Z is a linear subsp°ace of A and that Z is an ideal, since [z,a]=° for all a£, A and £, Z.
+
+The set of all linear combinations of elements that can be ex- pressed as commutators of elements in f\. is an ideal which is called the derived subalgebra of A and is denoted by A'; A' is an ideal since for any x £, (I. I and a £, A, [a,x] £, AT by the definition. The derived subalgebra has the property that AIA' is Abelian. The proof of this fact is analogous to the proof of the similar result in the theory of groups and will be omitted.
+
+If the center of a Lie algebra 1\ consists only of 0, it is possible to obtain a Lie algebra of matrices isomorphic to /\. Supposeebe2, ??? , en are basis vectors in A in satisfying [e{3 ,ey] = cO'{3y eO'. We consider n x n matrices 11,12, ??? , In defined by
+  \begin{equation}   %  =   =   =   =   =
+   %\begin{split}
+      i = \mat{ccr}{0 &  0 & 0 \\ 0 & 0 & -1 \\  0 & 1 & 0}, \ 
+      j = \mat{rcc}{0 &  0 & 1 \\ 0 & 0 & 0  \\ -1 & 0 & 0}, \ 
+      k = \mat{crc}{0 & -1 & 0 \\ 1 & 0 & 0  \\  0 & 0 & 0}
+   %\end{split}
+   %\label{eq:}
+  \end{equation}
+
+
+
+\endinput  %  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
