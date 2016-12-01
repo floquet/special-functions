@@ -5,15 +5,17 @@
 \contentsline {section}{\numberline {2.3}Homomorphisms}{9}
 \contentsline {section}{\numberline {2.4}Some further aspects of groups}{10}
 \contentsline {chapter}{\numberline {3}Lie Groups}{13}
-\contentsline {chapter}{\numberline {4}Lie algebras}{15}
-\contentsline {chapter}{\numberline {5}Invariant integration}{17}
-\contentsline {chapter}{\numberline {6}Group representations}{19}
-\contentsline {chapter}{\numberline {7}Completeness Theorems for Group Representations}{21}
-\contentsline {chapter}{\numberline {8}The Groups U(1) and SU(2)}{23}
-\contentsline {chapter}{\numberline {9}Rotations in space}{25}
-\contentsline {section}{\numberline {9.1}General properties of the rotation group }{25}
-\contentsline {section}{\numberline {9.2}The functions $v^{\alpha }_{\beta }$ and invariant integration}{30}
-\contentsline {section}{\numberline {9.3}The homomorphism of $SU(2)$ onto $O(3)^{+}$}{31}
-\contentsline {section}{\numberline {9.4}Representations of the rotation group}{33}
-\contentsline {section}{\numberline {9.5}Harmonic polynomials and representations of $O(3)^{+}$}{35}
-\contentsline {section}{\numberline {9.6}Differential equations for the group representations}{40}
+\contentsline {section}{\numberline {3.1}Lie Groups}{14}
+\contentsline {section}{\numberline {3.2}Compact Groups}{16}
+\contentsline {chapter}{\numberline {4}Lie algebras}{19}
+\contentsline {chapter}{\numberline {5}Invariant integration}{21}
+\contentsline {chapter}{\numberline {6}Group representations}{23}
+\contentsline {chapter}{\numberline {7}Completeness Theorems for Group Representations}{25}
+\contentsline {chapter}{\numberline {8}The Groups U(1) and SU(2)}{27}
+\contentsline {chapter}{\numberline {9}Rotations in space}{29}
+\contentsline {section}{\numberline {9.1}General properties of the rotation group }{29}
+\contentsline {section}{\numberline {9.2}The functions $v^{\alpha }_{\beta }$ and invariant integration}{34}
+\contentsline {section}{\numberline {9.3}The homomorphism of $SU(2)$ onto $O(3)^{+}$}{35}
+\contentsline {section}{\numberline {9.4}Representations of the rotation group}{37}
+\contentsline {section}{\numberline {9.5}Harmonic polynomials and representations of $O(3)^{+}$}{39}
+\contentsline {section}{\numberline {9.6}Differential equations for the group representations}{44}

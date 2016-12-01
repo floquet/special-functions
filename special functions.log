@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 NOV 2016 11:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 NOV 2016 20:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -436,57 +436,71 @@ Missing character: There is no á in font cmr10!
  [11]))
 (./chapters/ch 03 Lie groups/head Lie groups.tex [12]
 Chapter 3.
-) (./chapters/ch 04 Lie algebras/head Lie algebras.tex [13
+(./chapters/ch 03 Lie groups/sec Lie groups.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [14
+ [13
+
+]
+Missing character: There is no ± in font cmr10!
+
+[14]
+Missing character: There is no » in font cmr10!
+Missing character: There is no ± in font cmr10!
+Missing character: There is no ± in font cmr10!
+ [15]) (./chapters/ch 03 Lie groups/sec compact groups.tex
+Underfull \vbox (badness 1436) has occurred while \output is active []
+
+ [16]))
+(./chapters/ch 04 Lie algebras/head Lie algebras.tex [17] [18
 
 ]
 Chapter 4.
 ) (./chapters/ch 05 invariant integration/head invariant integration.tex
-[15] [16
+[19] [20
 
 ]
 Chapter 5.
 ) (./chapters/ch 06 group representations/head group representations.tex
-[17] [18
+[21] [22
 
 ]
 Chapter 6.
 ) (./chapters/ch 07 completeness theorems/head completeness theorems.tex
-[19] [20
+[23] [24
 
 ]
 Chapter 7.
-) (./chapters/ch 08 U(1) and SU(2)/head U(1) and SU(2).tex [21] [22
+) (./chapters/ch 08 U(1) and SU(2)/head U(1) and SU(2).tex [25] [26
 
 ]
 Chapter 8.
-) (./chapters/ch 09 rotations in space/head rotations in space.tex [23]
-[24
+) (./chapters/ch 09 rotations in space/head rotations in space.tex [27]
+[28
 
 ]
 Chapter 9.
-(./chapters/ch 09 rotations in space/sec general properties.tex [25]
-<images/"figure 9-1 naked".pdf, id=125, 451.6875pt x 452.69125pt>
+(./chapters/ch 09 rotations in space/sec general properties.tex [29]
+<images/"figure 9-1 naked".pdf, id=138, 451.6875pt x 452.69125pt>
 File: images/"figure 9-1 naked".pdf Graphic file (type pdf)
 
 <use images/"figure 9-1 naked".pdf>
 Package pdftex.def Info: images/"figure 9-1 naked".pdf used on input line 35.
 (pdftex.def)             Requested size: 144.54pt x 144.86415pt.
- [26]
+ [30]
 Underfull \hbox (badness 1292) in paragraph at lines 78--78
 []| \OT1/cmr/bx/n/10 Fig-ure 9.3. \OT1/cmr/m/it/10 The fi-nal po-si-tion of $\O
 ML/cmm/m/it/10 i$\OT1/cmr/m/it/10 , $\OML/cmm/m/it/10 j$\OT1/cmr/m/it/10 , $\OM
 L/cmm/m/it/10 k$ \OT1/cmr/m/it/10 fol-low-ing the ro-ta-tion
  []
 
-[27 <./images/figure 9-1 naked.pdf>] [28] [29])
+[31 <./images/figure 9-1 naked.pdf>] [32] [33])
 (./chapters/ch 09 rotations in space/sec invariant integration.tex
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 1.
 )
-(./chapters/ch 09 rotations in space/sec homomorphism.tex [30] [31] [32])
+(./chapters/ch 09 rotations in space/sec homomorphism.tex [34] [35] [36])
 (./chapters/ch 09 rotations in space/sec representations of the rotation group.
-tex [33] [34])
+tex [37] [38])
 (./chapters/ch 09 rotations in space/sec harmonic polynomials.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
 
@@ -497,54 +511,54 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
 
 
-LaTeX Warning: Reference `sec:8-2' on page 35 undefined on input line 3.
+LaTeX Warning: Reference `sec:8-2' on page 39 undefined on input line 3.
 
 
-LaTeX Warning: Reference `sec:8-2' on page 35 undefined on input line 3.
+LaTeX Warning: Reference `sec:8-2' on page 39 undefined on input line 3.
 
-[35]
+[39]
 
-LaTeX Warning: Reference `6.42' on page 36 undefined on input line 39.
+LaTeX Warning: Reference `6.42' on page 40 undefined on input line 39.
 
 
-LaTeX Warning: Reference `9-19' on page 36 undefined on input line 50.
+LaTeX Warning: Reference `9-19' on page 40 undefined on input line 50.
 
-[36]
+[40]
 Underfull \hbox (badness 1043) detected at line 91
  []$[]  \OML/cmm/m/it/10 g[] \OT1/cmr/m/n/10 = [](\OMS/cmsy/m/n/10 ^^@\OT1/cmr/
 m/n/10 1)[][]\OML/cmm/m/it/10 u[]v[]z[]$ [][]  
  []
 
 
-LaTeX Warning: Reference `eq:6-44' on page 37 undefined on input line 99.
+LaTeX Warning: Reference `eq:6-44' on page 41 undefined on input line 99.
 
 
-LaTeX Warning: Reference `9-19' on page 37 undefined on input line 99.
+LaTeX Warning: Reference `9-19' on page 41 undefined on input line 99.
 
-[37]
+[41]
 
-LaTeX Warning: Reference `6.44' on page 38 undefined on input line 113.
-
-
-LaTeX Warning: Reference `9-23a' on page 38 undefined on input line 120.
+LaTeX Warning: Reference `6.44' on page 42 undefined on input line 113.
 
 
-LaTeX Warning: Reference `9-19' on page 38 undefined on input line 149.
-
-[38]
-
-LaTeX Warning: Reference `9-23a' on page 39 undefined on input line 168.
-
-[39]) (./chapters/ch 09 rotations in space/sec differential equations.tex
-
-LaTeX Warning: Reference `sec:6-10' on page 40 undefined on input line 3.
+LaTeX Warning: Reference `9-23a' on page 42 undefined on input line 120.
 
 
-LaTeX Warning: Reference `6-52' on page 40 undefined on input line 3.
+LaTeX Warning: Reference `9-19' on page 42 undefined on input line 149.
+
+[42]
+
+LaTeX Warning: Reference `9-23a' on page 43 undefined on input line 168.
+
+[43]) (./chapters/ch 09 rotations in space/sec differential equations.tex
+
+LaTeX Warning: Reference `sec:6-10' on page 44 undefined on input line 3.
+
+
+LaTeX Warning: Reference `6-52' on page 44 undefined on input line 3.
 
 ))
 No file "special functions".ind.
-[40] (./special functions.aux)
+[44] (./special functions.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -553,10 +567,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3421 strings out of 493089
- 48184 string characters out of 6134842
- 120915 words of memory out of 5000000
- 6722 multiletter control sequences out of 15000+600000
+ 3428 strings out of 493089
+ 48413 string characters out of 6134842
+ 120921 words of memory out of 5000000
+ 6723 multiletter control sequences out of 15000+600000
  10901 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,25n,26p,1864b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -577,10 +591,10 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on "special functions.pdf" (50 pages, 323640 bytes).
+Output written on "special functions.pdf" (54 pages, 337301 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
+ 251 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

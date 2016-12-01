@@ -7,7 +7,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces The effect on an arbitrary vector $r$ of a rotation about the $v$ axis by an angle $\phi $.}}{27}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces The vectors $e$, $f$, $k$ show the position of $i$, $j$, $k$ following the rotation $Z \left ( \alpha \right ) X \left ( \beta \right ) $. Note that $e$ is in the $x-y$ plane perpendicular to $k$ and that $f = k \times e$. The angles $\beta $ and $\alpha - \pi /2$ are the spherical polar coordinates of $k$.}}{27}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces The final position of $i$, $j$, $k$ following the rotation $Z \left ( \alpha \right ) X \left ( \beta \right ) Z \left ( \gamma \right ) $ showing $i$ and $j$ rotated in the $e-f$ plane relative to $e$ and $f$ and $\gamma $.}}{28}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces A rotation about $v$ by $\phi $ constructed as successive rotations about $u_{1}$ and $u_{2}$ by $\pi $.}}{29}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces The effect on an arbitrary vector $r$ of a rotation about the $v$ axis by an angle $\phi $.}}{31}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces The vectors $e$, $f$, $k$ show the position of $i$, $j$, $k$ following the rotation $Z \left ( \alpha \right ) X \left ( \beta \right ) $. Note that $e$ is in the $x-y$ plane perpendicular to $k$ and that $f = k \times e$. The angles $\beta $ and $\alpha - \pi /2$ are the spherical polar coordinates of $k$.}}{31}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces The final position of $i$, $j$, $k$ following the rotation $Z \left ( \alpha \right ) X \left ( \beta \right ) Z \left ( \gamma \right ) $ showing $i$ and $j$ rotated in the $e-f$ plane relative to $e$ and $f$ and $\gamma $.}}{32}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces A rotation about $v$ by $\phi $ constructed as successive rotations about $u_{1}$ and $u_{2}$ by $\pi $.}}{33}
