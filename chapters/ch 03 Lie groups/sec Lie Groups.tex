@@ -1,37 +1,40 @@
 \section[Lie Groups]{Lie Groups}
 
-A Lie group of dimension $n$ is a group with the following properties.
-\begin{description}
-\item[A] The group is composed of a finite number of subsets, which are not necessarily disjoint, such that the elements of each subset can be placed in 1--1 correspondence with the points of open regions in $n-$dimensional space. These regions will be called parameter domains and the n coordinates of a point in one of them will be called group parameters or coordinates and will be used as coordinates for the corresponding group element.
-\item[B] A given group element may have parameters in more than one parameter domain; if this is the case the coordinates in one region must be arbitrarily differentiable functions of the coordinates in the other region.
-\item[C] The group operations must be differentiable in the group parameters; the exact meaning of this condition will be explained shortly.
-\item[D] The group is closed (or has the closure property) and is connected. These properties will be defined precisely later.
-\end{description}
+A \uline{Lie group} of dimension $n$ is a group with the following properties.
+\begin{enumerate}
+\item The group is composed of a finite number of subsets, which are not necessarily disjoint, such that the elements of each subset can be placed in 1--1 correspondence with the points of open regions in $n$--dimensional space. These regions will be called \uline{parameter domains} and the $n$ coordinates of a point in one of them will be called \uline{group parameters} or \uline{coordinates} and will be used as coordinates for the corresponding group element.
+\item A given group element may have parameters in more than one parameter domain; if this is the case the coordinates in one region must be arbitrarily differentiable functions of the coordinates in the other region.
+\item The group operations must be differentiable in the group parameters; the exact meaning of this condition will be explained shortly.
+\item The group is closed (or has the closure property) and is connected. These properties will be defined precisely later.
+\end{enumerate}
 %%
 It would be most convenient if one open region in the parameter space were sufficient to label all the group elements. Unfortunately, it is usually necessary for topological reasons, that is, reasons of connectedness, to introduce different coordinate systems into different parts of the group. For the most part, this complication will, however, be ignored and we may refer to the coordinates of a group element without mentioning explicitly that they are in a particular parameter domain.
+
 The various parameter domains could be made to be nonoverlapping by discarding from some of them those elements that they have in common with others. The reason that this is not done is that the resulting domains, which would be differences of open sets, would not be open, and it is desirable that the parameter domains be open sets. In fact, one of the difference sets could conceivably he a single point, in which case the differentiability condition would become meaningless.
-As an example of all this, consider the set of rotations of a plane, which can be labelled by the rotation angle ().
-This () is, however, a cyclic variable and rotations by () and by () ± 271" n (n an integer) are identical. It is, therefore, impossible to introduce a variable with a finite domain which would depend continuously on the group element: the group is, like the circle, multiply
-connected whereas any finite domain of a variable is singly connected. Hence, one introduces two domains to cover the group. The variable of the first domain is ()1 = () and is restricted to the open region
--71" <() i < 71". The second one is ()2 = - 71" and can also be restricted to the domain -71" < ()2 < 71". The only point the first domain does not 
-cover is the point () =7r, the only point the second domain does not cover is e = 0, that is, the unit element. Of course, both domains could be chosen to be smaller as long as they cover all points
--7r < e:s 7r.
-The reason for the need of several open domains in parameter .space (actually only two for the groups to be considered) is always
-the same in principle, but the situation may be somewhat more complicated than in the case just considered.
-A particular group will naturally admit many different coordinate systems, each of which will be called a parametrization.
-The set of coordinates of a group element will be denoted by a boldface letter. We will frequently not distinguish between a group element and the point in the parameter space that represents it; for example, we may refer to the product of elements p and q.
+
+As an example of all this, consider the set of rotations of a plane, which can be labelled by the rotation angle $\theta$.
+
+This $\theta$ is, however, a cyclic variable and rotations by $\theta$ and by $\theta \pm 2\pi n$ ($n$ an integer) are identical. It is, therefore, impossible to introduce a variable with a finite domain which would depend continuously on the group element: the group is, like the circle, multiply
+connected whereas any finite domain of a variable is singly connected. Hence, one introduces two domains to cover the group. The variable of the first domain is $\theta_{1} = \theta$ and is restricted to the open region $-\pi < \theta_{1} < \pi$. The second one is $\theta_{2} = -\pi$ and can also be restricted to the domain $-\pi < \theta_{2} < \pi$. The only point the first domain does not cover is the point $\theta = \pi$, the only point the second domain does not cover is $\theta = \pi$, that is, the unit element. Of course, both domains could be chosen to be smaller as long as they cover all points $-\pi < \theta \le \pi$.
+
+The reason for the need of several open domains in parameter space (actually only two for the groups to be considered) is always the same in principle, but the situation may be somewhat more complicated than in the case just considered.
+
+A particular group will naturally admit many different coordinate systems, each of which will be called a \uline{parametrization}.
+
+The set of coordinates of a group element will be denoted by a boldface letter. We will frequently not distinguish between a group element and the point in the parameter space that represents it; for example, we may refer to the product of elements $\textbf{p}$ and $\textbf{q}$.
+
 It is convenient to assume that the identity element has coordinates zero in at least one parameter domain. This is no real restriction since it can be achieved by a coordinate translation.
-An example of a Lie group is the group of n x n nonsingular matrices with real elements. This is an n2-dimensional group, in which the matrix elements, with 1 subtracted from the diagonal elements, can be regarded as the group parameters.
-If two group elements a and b, with coordinates p and q respectively, are given a third element    their product ab is determined
-by the group multiplication property. The coordinates of c will be denoted by r. The numbers r1, r2, ..., rn depend on the coordinates
-of a and b and they are therefore functions of the variables p and q. There are n such functions, one for each coordinate of c, and each function depends on 2n variables, the coordinates of a and b. There seems to be no standard terminology for these functions; we will call them product functions and denote them by f. The coordinates of
-c = ab are therefore given by f(p, q). For a given pair p, q there may be more than one function f since c = ab may have coordinates in more than one parameter domain. The various possible functions are, because of B, connected by a differentiable transformation.
-The group multiplication laws (2.1) and (2.2) impose certain conditions on the functions f. For example, the property ae = ea = a requires that
+
+An example of a Lie group is the group of $n \times n$ nonsingular matrices with real elements. This is an $n2$--dimensional group, in which the matrix elements, with 1 subtracted from the diagonal elements, can be regarded as the group parameters.
+
+If two group elements $a$ and $b$, with coordinates $\textbf{p}$ and $\textbf{q}$ respectively, are given a third element $c$ their product $ab$ is determined by the group multiplication property. The coordinates of $c$ will be denoted by $\textbf{p}$. The numbers $r^{1}, r^{2}, \dots, r^{n}$ depend on the coordinates of $a$ and $b$ and they are therefore functions of the variables $\textbf{p}$ and $\textbf{q}$. There are $n$ such functions, one for each coordinate of $c$, and each function depends on $2n$ variables, the coordinates of $a$ and $b$. There seems to be no standard terminology for these functions; we will call them \uline{product functions} and denote them by $\textbf{f}$. The coordinates of $c = ab$ are therefore given by $\textbf{f}$($\textbf{p}$, $\textbf{q}$). For a given pair $\textbf{p}$, $\textbf{q}$ there may be more than one function $\textbf{f}$ since $c = ab$ may have coordinates in more than one parameter domain. The various possible functions are, because of $B$, connected by a differentiable transformation.
+
+The group multiplication laws \eqref{eq:2-1} and \eqref{eq:2-2} impose certain conditions on the functions $f$. For example, the property $ae = ea = a$ requires that
   \begin{equation}   %  =   =   =   =   =
    %\begin{split}
-      f(p,0) = f(0,p) = p.
+      \bf{f}(p,0) = f(0,p) = p.
    %\end{split}
-   %\label{eq:}
+   \label{eq:3-1}
   \end{equation}
 The associative law (ab)c =a(bc) imposes a rather more complicated condition on the f. We again denote the coordinates of a, b, and c by p, q, and r respectively. The group element ab has coordinates f(p, q) and (ab)c therefore has coordinates f(f(p, q), r). In a similar way it can be found that a(bc) has coordinates f(p, f(q, r». The equality of the two group elements requires that
   \begin{equation}   %  =   =   =   =   =

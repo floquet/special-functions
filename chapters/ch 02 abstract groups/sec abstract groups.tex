@@ -6,11 +6,13 @@ A group $G$ is a set in which an operation is defined which associates with ever
 \item[A.] The multiplication is \emph{associative}; that is
 \begin{equation}
   \paren{ab}c = a \paren{bc} . 
+  \label{eq:2-1}
 \end{equation}
 %
 \item[B.] There is one element, \emph{the identity} $e$, with the property that for all $a \in G$
 \begin{equation}
   a e = ea = a.
+  \label{eq:2-2}
 \end{equation}
 %
 \item[C.] For each $a \in G$, there is an element $a^{-1}$, the \emph{inverse} of $a$, such that
@@ -23,8 +25,10 @@ A group $G$ is a set in which an operation is defined which associates with ever
 An important consequence of A is that the product of three (or more) factors in a particular order is independent of the order in which the multiplications are performed. Thus, a product of the form $abcd$ can be interpreted to be anyone of $(ab)(cd)$, $(a(bc)d)$, $((ab)c)d$, and so on. It is important to observe that either of the equations $ax = b$ and $xa = b$ has a unique solution for $x$. In the former case $x =a^{-1}b$, in the latter $x =ba^{-1}$, as can be seen by left (right) multiplication with $a^{-1}$. It follows from this that if $ab = b$, or if $ba = b$, then $a = e$, since $a = e$ is a solution of either equation. Therefore, $e$ is the only element multiplication with which leaves any element unchanged, and this applies to both left and right multiplication. Similarly, if $ab = e$, or $ba = e$, then $b =a^{-1}$.	The inverse element is therefore unique; that is, $b =a^{-1}$ is the only element with the property C. 
 
 If $a^{2} = a$, multiplication with $a^{-1}$ shows that $a = e$: the identity is the only element equal to its square (although it is possible that $a^{n} = a$, $n \ne 2$). Since $e^{2} = e$, the identity element is its own inverse.
-Another rule which is frequently used is that the inverse of the product $ab$ is $b^{-1} a^{-1}$.
-A result of considerable significance is that the mapping $f_{a}$ of $G$ into $G$ defined by $f_{a}\paren{a^{-1}y}  = aa^{-1}y = y$ is a 1$-$1 correspondence between the group and itself. For any $y \in G$, $f_{a}\paren{x_{1}} = f_{a}\paren{x_{2}}$, so that $y$ is the image of an element in $G$, that is, $f_{a}$ maps $G$ onto $G$. Furthermore, if $f_{a}\paren{x_{1}} = f_{a}\paren{x_{2}}$, $x_{1} = x_{2}$, since multiplying each side of $ax_{1} = ax_{1}$ with $a^{-1}$ gives $x_{1} = x_{2}$. Therefore, each $y \in G$ is the image of exactly one $x \in G$ and the mapping $f_{a}$ has a well-defined inverse. The mapping $f_{a}$ in effect rearranges or permutes the elements of $G$.
+
+Another rule which is frequently used is that the inverse of the product $ab$ is $b^{-1} a^{-1}$.
+
+A result of considerable significance is that the mapping $f_{a}$ of $G$ into $G$ defined by $f_{a}\paren{a^{-1}y}  = aa^{-1}y = y$ is a 1$-$1 correspondence between the group and itself. For any $y \in G$, $f_{a}\paren{x_{1}} = f_{a}\paren{x_{2}}$, so that $y$ is the image of an element in $G$, that is, $f_{a}$ maps $G$ onto $G$. Furthermore, if $f_{a}\paren{x_{1}} = f_{a}\paren{x_{2}}$, $x_{1} = x_{2}$, since multiplying each side of $ax_{1} = ax_{1}$ with $a^{-1}$ gives $x_{1} = x_{2}$. Therefore, each $y \in G$ is the image of exactly one $x \in G$ and the mapping $f_{a}$ has a well-defined inverse. The mapping $f_{a}$ in effect rearranges or permutes the elements of $G$.
 
 Each group element can therefore be identified with a unique map- ping of the group onto itself with the property that the product $x_{2}^{-1} x_{1}$ is invariant. It is obvious that each group element generates such a mapping. Conversely, if $F$ is such a mapping, the group element is such that $F = f_{a}$ can be identified as $a = F(x)x^{-1}$; the invariance of $x_{2}^{-1} x_{1}$ guarantees that this choice is independent of $x$.
 
