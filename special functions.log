@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 DEC 2016 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 DEC 2016 10:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -441,11 +441,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [13
 
 ]
-[14]
-Missing character: There is no » in font cmr10!
+[14] [15]
 Missing character: There is no ± in font cmr10!
 Missing character: There is no ± in font cmr10!
- [15]) (./chapters/ch 03 Lie groups/sec compact groups.tex
+) (./chapters/ch 03 Lie groups/sec compact groups.tex
 Underfull \vbox (badness 1436) has occurred while \output is active []
 
  [16])
@@ -458,7 +457,7 @@ Missing character: There is no » in font cmr10!
 ) (./chapters/ch 03 Lie groups/sec one parameter subgroups.tex [18]
 Missing character: There is no £ in font cmr10!
 
-<images/"figure 9-1 naked".pdf, id=103, 451.6875pt x 452.69125pt>
+<images/"figure 9-1 naked".pdf, id=104, 451.6875pt x 452.69125pt>
 File: images/"figure 9-1 naked".pdf Graphic file (type pdf)
 
 <use images/"figure 9-1 naked".pdf>
@@ -725,7 +724,7 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on "special functions.pdf" (66 pages, 398930 bytes).
+Output written on "special functions.pdf" (66 pages, 399700 bytes).
 PDF statistics:
  298 PDF objects out of 1000 (max. 8388607)
  207 compressed objects within 3 object streams
