@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 DEC 2016 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 DEC 2016 09:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -386,14 +386,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-] [2
-
-]
+] [2]
 (./special functions.lof)
 \tf@lof=\write5
 \openout5 = `"special functions.lof"'.
 
- [3] [4
+ [3
+
+] [4
 
 ] (./special functions.lot)
 \tf@lot=\write6
@@ -570,47 +570,307 @@ Missing character: There is no £ in font cmr10!
  [31])
 (./chapters/ch 05 invariant integration/head invariant integration.tex [32]
 Chapter 5.
-) (./chapters/ch 06 group representations/head group representations.tex
+./chapters/ch 05 invariant integration/head invariant integration.tex:44: Missi
+ng $ inserted.
+<inserted text> 
+                $
+l.44 j4>(g) dg = j<I>(g-1) dg =j<I>(g) dg A A_
+                                              1
+? 
+./chapters/ch 05 invariant integration/head invariant integration.tex:82: Undef
+ined control sequence.
+l.82 ...how that even if the weight function \Mere
+                                                   not present in one parame...
+
+? 
+./chapters/ch 05 invariant integration/head invariant integration.tex:92: Missi
+ng $ inserted.
+<inserted text> 
+                $
+l.92 
+     
+? 
+Missing character: There is no £ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no £ in font cmr10!
+
+Overfull \hbox (1745.14589pt too wide) in paragraph at lines 12--92
+\OML/cmm/m/it/10 isidenticallyzero:\OT1/cmr/m/n/10 6 \OMS/cmsy/m/n/10 ^^@ \OT1/
+cmr/m/n/10 2\OML/cmm/m/it/10 INTEGRATIONONACOMPACTLIEGROUP:INTEGRAL\OT1/cmr/m/n
+/10 (5\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3)(5\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4
+)\OML/cmm/m/it/10 Theinvarianceoftheintegrationoverafinitegroupisrathertrivial:
+WeturnnowtothecaseinwhichthegroupGisannparameterLiegroup:Itisnaturaltoattemptto
+definetheintegralasadefiniteintegraloverthegroupparameters:Indoingthiswemeetimm
+ediatelytheproblemthatthevariousparameterdomainsmayoverlap; whereastheintegralc
+anhardlybeexpectedtobeinvariantunlessthereisa\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10
+ ^^@
+ []
+
+
+Overfull \hbox (508.47746pt too wide) in paragraph at lines 12--92
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 correspondencebetweengroupelementsandcoordina
+tepoints:Tothisend; wecandeletefromsomeoftheparameterdomainstheirintersectionwi
+thothers; sothatthepointsoftheresultingdomainsarein\OT1/cmr/m/n/10 1 \OMS/cmsy/
+m/n/10 ^^@
+ []
+
+
+Overfull \hbox (3773.4466pt too wide) in paragraph at lines 12--92
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 correspondencewiththegroupelements:Asprevious
+lymentioned; theresultingdomainsmaynotbeopen; butthisdoesnotmatterfordefiningth
+eintegral:Someofthedomainsmaybeoflowerdimensionthann\OT1/cmr/m/n/10 ; \OML/cmm/
+m/it/10 thevolumeofsuchregionsiszero:Actually; inallcaseswithwhichweshallbeconc
+erned; theoriginalregionsinparameterspacecanbechosensothatasingleone; whichwill
+bedescribedinallexamples; coverstheentiregroupexceptforasetoflowerdimensionalit
+y:TheintegralcanthenbeexpressedTHEHURWITZ\OT1/cmr/m/n/10 52\OML/cmm/m/it/10 SPE
+CIALFUNCTIONSINVARIAlastheintegraloveroneparameterdomain; withthesetoflowerdime
+nsionignored:Itisconvenientinthediscussionofinvariantintegrationnottodistinguis
+hbetweenpointsintheparameterspaceandgroupelements\OT1/cmr/m/n/10 ; \OML/cmm/m/i
+t/10 thisdoesnotcauseanymathematicaldifficultyiftheassumptionsofthepreviouspara
+grapharevalid; anditleadstoasimplernotation:Weattempt; therefore; todefinethegr
+oupintegralintheformtl >
+ []
+
+
+Overfull \hbox (978.22218pt too wide) in paragraph at lines 12--92
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dg \OT1/cm
+r/m/n/10 = \OML/cmm/m/it/10 Jtl > \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m
+/n/10 )\OML/cmm/m/it/10 w\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 )\O
+ML/cmm/m/it/10 dp; \OT1/cmr/m/n/10 (5\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5)\OML/c
+mm/m/it/10 theintegralbeingoverasingleparameterdomain:Thefunctionw\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 isaweightfunctionthatis
+includedtogivedifferentweightstovariousregionsoftheparameterspace:Itcanbeseenth
+atsuchafunctionisrequired; sinceifthegroupparametersarechangedtoTheleftTheassum
+edthifi \OT1/cmr/m/n/10 ::
+ []
+
+
+Overfull \hbox (1816.28668pt too wide) in paragraph at lines 12--92
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 w; \OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dp[]Jw[]\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 w\OT1/cmr/
+m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 
+))\OML/cmm/m/it/10 usedtodenotetheJacobiano\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pi
+; p\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; :::; pn\OT1/cmr/m/n/10 )\OML/cmm/m/it/10
+ o\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pIi; p[]\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ;
+ ; p[]n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (5\OML/cmm/m/it/10 :\
+OT1/cmr/m/n/10 6\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 )(5\OML/cmm/m/it/10 :\OT1/cmr
+/m/n/10 6\OML/cmm/m/it/10 b\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 Equations\OT1/cmr/
+m/n/10 (6)\OML/cmm/m/it/10 showthateveniftheweightfunctionnotpresentinoneparame
+trization; itwouldbenecessarytoincludeitisanotherparametrization:Theproblemofco
+nstructinganinvariantintegralis; infact; aproblemoffindingasuitableweightfuncti
+on:Theweightfunctioncanbemultipliedbyanarbitraryconstantwithoutaffectingtheinva
+rianceproperty:Itiscustomaryto\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 normalize\OT1/c
+mr/m/n/10 "\OML/cmm/m/it/10 weithersothatw\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 e\O
+T1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (1170.42917pt too wide) in paragraph at lines 12--92
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; orsothatthetotalgroupvolumeis\OT1/cmr/m/n/1
+0 1\OML/cmm/m/it/10 :WewillchoofJetheformernormalization:Itispossibletoevaluate
+theweightfunctionbyconsideringtheleftinvariancerequirementforaparticularfunctio
+nEwhichwillbedefinedshortly:Itisthenpossibletodemonstratethat; becauseofthegrou
+passociativity; theintegralisleftinvariant:Letusconsideravolumeelementi \OT1/cm
+r/m/n/10 ::
+ []
+
 [33
 
-] [34
-
 ]
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no £ in font cmr10!
+
+./chapters/ch 05 invariant integration/head invariant integration.tex:112: Unde
+fined control sequence.
+l.112 ...)= It::..VI = lit::..V'1)-1 I t::..v'l \1
+                                                  t::.. v i
+? 
+Missing character: There is no £ in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no £ in font cmr10!
+./chapters/ch 05 invariant integration/head invariant integration.tex:116: Miss
+ing $ inserted.
+<inserted text> 
+                $
+l.116 It::..V'I =2.£'_
+                      I ofa -1 It::..vI op - aqf3 (a ,p)
+? 
+Missing character: There is no á in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no £ in font cmr10!
+./chapters/ch 05 invariant integration/head invariant integration.tex:144: Miss
+ing $ inserted.
+<inserted text> 
+                $
+l.144 ...t function w is left invariant. Let $\Phi
+                                                  $ be a continuous function...
+
+? 
+Missing character: There is no £ in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no á in font cmr10!
+./chapters/ch 05 invariant integration/head invariant integration.tex:213: Miss
+ing $ inserted.
+<inserted text> 
+                $
+l.213 I dq = j\Phi
+                  (q) w(q) dq, can riec
+? 
+./chapters/ch 05 invariant integration/head invariant integration.tex:274: Miss
+ing $ inserted.
+<inserted text> 
+                $
+l.274 
+      
+? 
+./chapters/ch 05 invariant integration/head invariant integration.tex:274: Miss
+ing } inserted.
+<inserted text> 
+                }
+l.274 
+      
+? 
+Missing character: There is no È in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+
+Overfull \hbox (540.52122pt too wide) in paragraph at lines 93--274
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 oratp[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 a 
+\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 i:Weobtain; therefore; againreplacinga \O
+MS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ibya; \OT1/cmr/m/n/10 (5\OML/cmm/m/it/10 :\
+OT1/cmr/m/n/10 10)\OML/cmm/m/it/10 asanalternateexpressionforw:Itispossibletogi
+veaheuristicargumentthattheintegraldefinedwiththeweightfunctionwisleftinvariant
+:Let$$\OT1/cmr/m/n/10 ^^H$
+ []
+
+
+Overfull \hbox (762.98105pt too wide) in paragraph at lines 93--274
+\OML/cmm/m/it/10 ideIaccordingto\OT1/cmr/m/n/10 (13)\OML/cmm/m/it/10 :Thisis; h
+owever; theleft \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 handsideof\OT1/cmr/m/n/10
+ (12)\OML/cmm/m/it/10 :Inchangingvariablesinthemultipleintegral; itisnecessarya
+lsotochangetheintegrationdomain:Sincetheintegralisoverthewholegroup; thedomaini
+snotessentiallychangedwhenpisreplacedbyf\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a \OM
+S/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (656.94772pt too wide) in paragraph at lines 93--274
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; p\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 butismer
+elyrearranged:Itcanbeconcluded; therefore; that\OT1/cmr/m/n/10 (12)\OML/cmm/m/i
+t/10 isvalid:Itisimportanttonote; though; thatthisagaindependsontheintegral[]sb
+eingextendedoverthewholegroup:Theintegraldefinedisobviouslylinearinthefunctionc
+I >
+ []
+
+
+Overfull \hbox (796.94867pt too wide) in paragraph at lines 93--274
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; a \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 w\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 e\OT1/cmr/m/n/10 ) = 1\OML/cmm/m/it/10 :Theaboveca
+lculationofwandtheensuingargumentisvalidforanyLiegroup:Theintegral\OT1/cmr/m/n/
+10 (5)\OML/cmm/m/it/10 maynotalwaysexist; however; sothattheargumentappliesonly
+iftheintegralisfinite:Ifthegroupiscompact; however; theintegralmustexistforallc
+ontinuouscI >
+ []
+
+
+Overfull \hbox (1408.42477pt too wide) in paragraph at lines 93--274
+\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 e \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 pdp\
+OT1/cmr/m/n/10 1[]0\OML/cmm/m/it/10 dp\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 cI > \O
+T1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; p\OT1/cmr/
+m/n/10 2)\OML/cmm/m/it/10 exists; itisleftinvariant:\OT1/cmr/m/n/10 6 \OMS/cmsy
+/m/n/10 ^^@ \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 :RIGHTINVARIANTINTEGRATIONItiscle
+arthatarightinvariantintegraloveracompactLiegroupcanalsobedefined:Iftheprocedur
+eoftheprevioussectioniscarriedthrough; oneobtainsarightinvariantweightfunctionw
+r\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 theresultanalogoustoequation\OT1/cmr/m/n/10
+ (9)\OML/cmm/m/it/10 is\OT1/cmr/m/n/10 58\OML/cmm/m/it/10 SPECIALFUNCTIONSINVan
+dtheresultanalogoustoequation\OT1/cmr/m/n/10 (10)\OML/cmm/m/it/10 isofawr\OT1/c
+mr/m/n/10 (\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 ) ::::
+ []
+
+
+Overfull \hbox (5101.06741pt too wide) in paragraph at lines 93--274
+\OML/cmm/m/it/10 wr\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 ) :::: 1\
+OML/cmm/m/it/10 op[]$ 
+ []
+
+[34] [35]
+Missing character: There is no £ in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no £ in font cmr10!
+
+./chapters/ch 05 invariant integration/head invariant integration.tex:317: Miss
+ing $ inserted.
+<inserted text> 
+                $
+l.317 aq' Y _
+              a f ' Y a f a _ 1
+? 
+./chapters/ch 05 invariant integration/head invariant integration.tex:323: Miss
+ing $ inserted.
+<inserted text> 
+                $
+l.323 
+      
+? 
+) (./chapters/ch 06 group representations/head group representations.tex
+[36]
 Chapter 6.
 ) (./chapters/ch 07 completeness theorems/head completeness theorems.tex
-[35] [36
+[37
+
+] [38
 
 ]
 Chapter 7.
-) (./chapters/ch 08 U(1) and SU(2)/head U(1) and SU(2).tex [37] [38
+) (./chapters/ch 08 U(1) and SU(2)/head U(1) and SU(2).tex [39] [40
 
 ]
 Chapter 8.
-) (./chapters/ch 09 rotations in space/head rotations in space.tex [39]
-[40
+) (./chapters/ch 09 rotations in space/head rotations in space.tex [41]
+[42
 
 ]
 Chapter 9.
-(./chapters/ch 09 rotations in space/sec general properties.tex [41]
+(./chapters/ch 09 rotations in space/sec general properties.tex [43]
 File: images/"figure 9-1 naked".pdf Graphic file (type pdf)
 
 <use images/"figure 9-1 naked".pdf>
 Package pdftex.def Info: images/"figure 9-1 naked".pdf used on input line 35.
 (pdftex.def)             Requested size: 144.54pt x 144.86415pt.
- [42]
+ [44]
 Underfull \hbox (badness 1292) in paragraph at lines 78--78
 []| \OT1/cmr/bx/n/10 Fig-ure 9.3. \OT1/cmr/m/it/10 The fi-nal po-si-tion of $\O
 ML/cmm/m/it/10 i$\OT1/cmr/m/it/10 , $\OML/cmm/m/it/10 j$\OT1/cmr/m/it/10 , $\OM
 L/cmm/m/it/10 k$ \OT1/cmr/m/it/10 fol-low-ing the ro-ta-tion
  []
 
-[43] [44] [45])
+[45] [46] [47])
 (./chapters/ch 09 rotations in space/sec invariant integration.tex
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 1.
 )
-(./chapters/ch 09 rotations in space/sec homomorphism.tex [46] [47] [48])
+(./chapters/ch 09 rotations in space/sec homomorphism.tex [48] [49] [50])
 (./chapters/ch 09 rotations in space/sec representations of the rotation group.
-tex [49] [50])
+tex [51] [52])
 (./chapters/ch 09 rotations in space/sec harmonic polynomials.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
 
@@ -621,54 +881,54 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
 
 
-LaTeX Warning: Reference `sec:8-2' on page 51 undefined on input line 3.
+LaTeX Warning: Reference `sec:8-2' on page 53 undefined on input line 3.
 
 
-LaTeX Warning: Reference `sec:8-2' on page 51 undefined on input line 3.
+LaTeX Warning: Reference `sec:8-2' on page 53 undefined on input line 3.
 
-[51]
+[53]
 
-LaTeX Warning: Reference `6.42' on page 52 undefined on input line 39.
+LaTeX Warning: Reference `6.42' on page 54 undefined on input line 39.
 
 
-LaTeX Warning: Reference `9-19' on page 52 undefined on input line 50.
+LaTeX Warning: Reference `9-19' on page 54 undefined on input line 50.
 
-[52]
+[54]
 Underfull \hbox (badness 1043) detected at line 91
  []$[]  \OML/cmm/m/it/10 g[] \OT1/cmr/m/n/10 = [](\OMS/cmsy/m/n/10 ^^@\OT1/cmr/
 m/n/10 1)[][]\OML/cmm/m/it/10 u[]v[]z[]$ [][]  
  []
 
 
-LaTeX Warning: Reference `eq:6-44' on page 53 undefined on input line 99.
+LaTeX Warning: Reference `eq:6-44' on page 55 undefined on input line 99.
 
 
-LaTeX Warning: Reference `9-19' on page 53 undefined on input line 99.
+LaTeX Warning: Reference `9-19' on page 55 undefined on input line 99.
 
-[53]
+[55]
 
-LaTeX Warning: Reference `6.44' on page 54 undefined on input line 113.
-
-
-LaTeX Warning: Reference `9-23a' on page 54 undefined on input line 120.
+LaTeX Warning: Reference `6.44' on page 56 undefined on input line 113.
 
 
-LaTeX Warning: Reference `9-19' on page 54 undefined on input line 149.
-
-[54]
-
-LaTeX Warning: Reference `9-23a' on page 55 undefined on input line 168.
-
-[55]) (./chapters/ch 09 rotations in space/sec differential equations.tex
-
-LaTeX Warning: Reference `sec:6-10' on page 56 undefined on input line 3.
+LaTeX Warning: Reference `9-23a' on page 56 undefined on input line 120.
 
 
-LaTeX Warning: Reference `6-52' on page 56 undefined on input line 3.
+LaTeX Warning: Reference `9-19' on page 56 undefined on input line 149.
+
+[56]
+
+LaTeX Warning: Reference `9-23a' on page 57 undefined on input line 168.
+
+[57]) (./chapters/ch 09 rotations in space/sec differential equations.tex
+
+LaTeX Warning: Reference `sec:6-10' on page 58 undefined on input line 3.
+
+
+LaTeX Warning: Reference `6-52' on page 58 undefined on input line 3.
 
 ))
 No file "special functions".ind.
-[56] (./special functions.aux)
+[58] (./special functions.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -676,8 +936,9 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
  )
-(\end occurred inside a group at level 18)
+(\end occurred inside a group at level 19)
 
+### simple group (level 19) entered at line 305 ({)
 ### simple group (level 18) entered at line 288 ({)
 ### simple group (level 17) entered at line 288 ({)
 ### simple group (level 16) entered at line 209 ({)
@@ -698,13 +959,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 16 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3472 strings out of 493014
- 49525 string characters out of 6133351
- 121416 words of memory out of 5000000
- 6807 multiletter control sequences out of 15000+600000
+ 3473 strings out of 493014
+ 49533 string characters out of 6133351
+ 132426 words of memory out of 5000000
+ 6808 multiletter control sequences out of 15000+600000
  11260 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,25n,26p,1864b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,25n,26p,1864b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -724,10 +985,10 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on "special functions.pdf" (66 pages, 399700 bytes).
+Output written on "special functions.pdf" (68 pages, 421743 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
+ 305 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
