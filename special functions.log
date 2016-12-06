@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 DEC 2016 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 DEC 2016 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,22 +378,22 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+])
 \tf@toc=\write4
 \openout4 = `"special functions.toc"'.
 
- [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-
-] [2
-
-]
+ [2]
 (./special functions.lof)
 \tf@lof=\write5
 \openout5 = `"special functions.lof"'.
 
- [3] [4
+ [3
+
+] [4
 
 ] (./special functions.lot)
 \tf@lot=\write6
@@ -570,15 +570,15 @@ Missing character: There is no £ in font cmr10!
  [31])
 (./chapters/ch 05 invariant integration/head invariant integration.tex [32]
 Chapter 5.
-) (./chapters/ch 06 group representations/head group representations.tex
 [33
 
-] [34
-
-]
+]) (./chapters/ch 06 group representations/head group representations.tex
+[34]
 Chapter 6.
 ) (./chapters/ch 07 completeness theorems/head completeness theorems.tex
-[35] [36
+[35
+
+] [36
 
 ]
 Chapter 7.
@@ -698,10 +698,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 16 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3472 strings out of 493014
- 49525 string characters out of 6133351
- 121416 words of memory out of 5000000
- 6807 multiletter control sequences out of 15000+600000
+ 3475 strings out of 493014
+ 49551 string characters out of 6133351
+ 121443 words of memory out of 5000000
+ 6810 multiletter control sequences out of 15000+600000
  11260 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,25n,26p,1864b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -724,7 +724,7 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on "special functions.pdf" (66 pages, 399700 bytes).
+Output written on "special functions.pdf" (66 pages, 404550 bytes).
 PDF statistics:
  298 PDF objects out of 1000 (max. 8388607)
  207 compressed objects within 3 object streams

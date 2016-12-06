@@ -15,6 +15,8 @@
 \contentsline {chapter}{\numberline {4}Lie algebras}{25}
 \contentsline {section}{\numberline {4.1}Example}{28}
 \contentsline {chapter}{\numberline {5}Invariant integration}{33}
+\contentsline {section}{\numberline {5.1}Integration on a finite group}{33}
+\contentsline {section}{\numberline {5.2}Integration on a compact group}{34}
 \contentsline {chapter}{\numberline {6}Group representations}{35}
 \contentsline {chapter}{\numberline {7}Completeness Theorems for Group Representations}{37}
 \contentsline {chapter}{\numberline {8}The Groups U(1) and SU(2)}{39}
